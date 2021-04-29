@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Termo_correction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Adress_polinom_termo_correct>45</Adress_polinom_termo_correct>
+  <Adress_polinom_t>55</Adress_polinom_t>
+  <low>-40</low>
+  <high>70</high>
+  <step>5</step>
+  <norm>true</norm>
+  <stock>true</stock>
+  <itog>true</itog>
+  <itog_calc>true</itog_calc>
+  <polinom_termo_correct>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </polinom_termo_correct>
+  <polinom_t>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+    <float>0</float>
+  </polinom_t>
+</Termo_correction>

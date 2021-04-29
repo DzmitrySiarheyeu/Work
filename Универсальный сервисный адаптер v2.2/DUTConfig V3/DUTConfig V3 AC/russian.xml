@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+<Translation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<LanguageName>Русский</LanguageName>
+
+	<btInterfaceSensorText>Интерфейсный датчик</btInterfaceSensorText>
+	<btAnalogSensorText>Аналоговый датчик</btAnalogSensorText>
+	<btFreqSensorText>Частотный датчик</btFreqSensorText>
+	<lbChooseSensorText>Выберите тип датчика</lbChooseSensorText>
+	<ddbCalibrationText>Калибровка</ddbCalibrationText>
+	<miCalibAnalogSensor>Аналоговый датчик</miCalibAnalogSensor>
+	<miCalibFreqSensor>Частотный датчик</miCalibFreqSensor>
+	<ddbLanguageText>Язык</ddbLanguageText>
+	<mesNoLangInfo>Нет информации о языке [{0}]</mesNoLangInfo>
+	
+	<modbusNoAnswerError>Нет ответа от устройства</modbusNoAnswerError>
+	<modbusHostIDError>Ошибка Host ID в ответа modbus</modbusHostIDError>
+	<modbusCRCError>Ошибка CRC ответа modbus</modbusCRCError>
+	<modbusBufferLenError>Неверная длина ответа modbus</modbusBufferLenError>
+	<modbusIllegalError>Недопустимая операци modbus</modbusIllegalError>
+	<modbusUnknownError>Неизвестная ошибка modbus</modbusUnknownError>
+	
+	<omniHostIDError>Ошибка Host ID в ответа omnicomm</omniHostIDError>
+	<omniCRCError>Ошибка CRC ответа omnicomm</omniCRCError>
+	<omniBufferLenError>Неверная длина ответа modbus</omniBufferLenError>
+	<omniMasterError>Неверный префикс ответа omnicomm</omniMasterError>
+	
+	<btBackToMainText>Назад</btBackToMainText>
+	<btConnectText>Подключить</btConnectText>
+	<btDisconnectText>Отключить</btDisconnectText>
+	<lbPortText>Порт:</lbPortText>
+	<lbModbusIDText>Modbus ID:</lbModbusIDText>
+	<lbBaudrateText>Скорость обмена:</lbBaudrateText>
+	<lbValueTypeVText>Напряжение, В</lbValueTypeVText>
+	<lbValueTypeFText>Частота, Гц</lbValueTypeFText>
+	<StatusLabelConnectOnText>Связь: есть</StatusLabelConnectOnText>
+	<StatusLabelConnectOffText>Связь: нет</StatusLabelConnectOffText>
+	<miFileText>Файл</miFileText>
+	<miFileSaveText>Сохранить</miFileSaveText>
+	<miFileLoadText>Загрузить</miFileLoadText>
+	<miViewText>Режим</miViewText>
+	<miViewStandartText>Обычный</miViewStandartText>
+	<miViewExtendedText>Расширенный</miViewExtendedText>
+	<miChangeFirmwareText>Сменить прошивку</miChangeFirmwareText>
+	<miThermoText>Термокомпенсация</miThermoText>
+	<lbPowerSupplyText>Напряжения питания, В</lbPowerSupplyText>
+	<lbSensorReadingsText>Показания датчика, л</lbSensorReadingsText>
+	<lbImmersionLevelText>Уровень погружения, %</lbImmersionLevelText>
+	<lbInnerCoreAvgText>Уср. частота внутреннего генератора, Гц</lbInnerCoreAvgText>
+	<lbInnerCoreText>Мгн. частота внутреннего генератора, Гц</lbInnerCoreText>
+	<lbTempSensorOnText>Термокомпенсация</lbTempSensorOnText>
+	<lbTempText>Температура головы</lbTempText>
+	<lbApprTypeText>Тип аппроксимации</lbApprTypeText>
+	<lbApprSizeText>Число точек аппроксимации</lbApprSizeText>
+	<lbAvgTypeText>Тип усреднения</lbAvgTypeText>
+	<lbAvgIntervalText>Интервал усреднения, с</lbAvgIntervalText>
+	<lbEngineStateText>Состояние двигателя</lbEngineStateText>
+	<lbEngineStateOnText>Вкл.</lbEngineStateOnText>
+	<lbEngineStateOffText>Выкл.</lbEngineStateOffText>
+	<lbDeltaPowerSupplyText>Перепад напряжения бортовой сети, мВ</lbDeltaPowerSupplyText>
+	<lbAvgAdaptEngineOnTimeIntervalText>Интервал уср. с работающим двигателем, с</lbAvgAdaptEngineOnTimeIntervalText>
+	<lbAvgAdaptEngineOffTimeIntervalText>Интервал уср. с заглушенным двигателем, с</lbAvgAdaptEngineOffTimeIntervalText>
+	
+	<lbFullTankFreqText>Частота для полного бака, Гц</lbFullTankFreqText>
+	<lbEmptyTankFreqText>Частота для пустого бака, Гц</lbEmptyTankFreqText>
+	<lbFreqRangeText>Диапазон генерации выходной частоты, Гц</lbFreqRangeText>
+	<lbErrorCodeText>Код ошибки</lbErrorCodeText>
+	<lbSWVersionText>Версия ПО</lbSWVersionText>
+	<lbOmniAutoOnText>Флаг автовыдачи данных</lbOmniAutoOnText>
+	<lbOmniAutoPeriodText>Период выдачи данных, с</lbOmniAutoPeriodText>
+	<lbOmniNetModeText>Режим сетевой работы</lbOmniNetModeText>
+	<lbOmniMaxNText>Максимальное значение N</lbOmniMaxNText>
+	<lbOmniCurrNText>Текущее значение N</lbOmniCurrNText>
+	<gbParamsText>Параметры ДУТ</gbParamsText>
+	<gbOmnicommText>Омникомм</gbOmnicommText>
+	<btTableClearText>Очистить</btTableClearText>
+	<btTankEmptyText>Пустой бак</btTankEmptyText>
+	<btTankFullText>Полный бак</btTankFullText>
+	<TempSensorOnText>Вкл.</TempSensorOnText>
+	<TempSensorOffText>Выкл.</TempSensorOffText>
+	<ApprTypeLinearText>Кусочно-линейная</ApprTypeLinearText>
+	<ApprTypePolyText>Полиномиальная</ApprTypePolyText>
+	<AvgTypeRunText>Бегущее среднее</AvgTypeRunText>
+	<AvgTypeExpText>Экспоненциальное</AvgTypeExpText>
+	<AvgTypeAdaptText>Адаптивное</AvgTypeAdaptText>
+	<OmniAutoNoneText>Выкл.</OmniAutoNoneText>
+	<OmniAutoASCIIText>Бинарный</OmniAutoASCIIText>
+	<OmniAutoBinText>Текстовый</OmniAutoBinText>
+	<OmniNetOnlineText>Сетевой</OmniNetOnlineText>
+	<OmniNetOfflineText>Автономный</OmniNetOfflineText>
+	<gbPolyText>Полином</gbPolyText>
+	<btEditText>Настроить</btEditText>
+	<btEditCancelText>Отмена</btEditCancelText>
+	<btEditOkText>OK</btEditOkText>
+	<WritingActiveMessage>Дождитесь завершения операции записи</WritingActiveMessage>
+	<ReadingActiveMessage>Дождитесь завершения операции чтения</ReadingActiveMessage>
+	<WriteDoneMessage>Готово!</WriteDoneMessage>
+	<ApprTableDataErrorMessage>Введено недопустимое значение</ApprTableDataErrorMessage>
+	<ApprTableTooShortMessage>Таблица должна содержать по крайней мере 2 точки</ApprTableTooShortMessage>
+	<WritePolyRequest>Таблица содержит менее 2 точек. Записать полином?</WritePolyRequest>
+	
+	<TarImmersHeaderText>Уровень погружения, %</TarImmersHeaderText>
+	<TarVolumeHeaderText>Объем топлива, л</TarVolumeHeaderText>
+	<PolyCoeffHeaderText>Коэффициент</PolyCoeffHeaderText>
+	<PolyValueHeaderText>Значение</PolyValueHeaderText>
+	
+	<GraphUserChartLabel>Исходный график</GraphUserChartLabel>
+	<GraphApproxChartLabel>Аппроксимированный график</GraphApproxChartLabel>
+	<GraphMenuSaveAs>Сохранить изображение как...</GraphMenuSaveAs>
+	<GraphMenuPageSetup>Параметры страницы...</GraphMenuPageSetup>
+	<GraphMenuPrint>Печать...</GraphMenuPrint>
+	<GraphMenuPointValues>Показывать значения в точках</GraphMenuPointValues>
+	<GraphMenuUnZoom>Назад</GraphMenuUnZoom>
+	<GraphMenuDefaultScale>Установить масштаб по умолчанию</GraphMenuDefaultScale>
+
+  <DUTParamsError>Недопустимое значение параметров ДУТ</DUTParamsError>
+	<Error0>Ошибок нет</Error0>
+	<ErrorX>Неизвестная ошибка</ErrorX>
+	<Error300>Датчик не откалиброван, по низу и по верху</Error300>
+	<Error320>Датчик не откалиброван по верху</Error320>
+	<Error340>Частота генератора равна 0</Error340>
+	<Error360>Деление на ноль, датчик откалиброван в одной и той же точке</Error360>
+	<Error380>Ошибка чтения EEPROM</Error380>
+	<Error400>Выход из диапазона, F больше чем (Fmax+10%)</Error400>
+	<Error420>Выход из диапазона, F меньше чем (Fmin – 10%)</Error420>
+	<Error440>Закорочен калибровочный контакт</Error440>
+	
+	<btOpenFirmFileText>Открыть файл прошивки</btOpenFirmFileText>
+	<btDownloadFirmText>Прошить</btDownloadFirmText>
+	<FirmCRCErrorMessage>Ошибка CRC файла прошивки</FirmCRCErrorMessage>
+	<InvalidAnsErrorMessage>Недопустимый ответ датчика</InvalidAnsErrorMessage>
+	<FirmFileNotSpecifiedErrorMessage>Файл прошивки не задан</FirmFileNotSpecifiedErrorMessage>
+	
+	<ThermoFileOpenFailMessage>Не удалось прочитать файл thermo_stock.xml</ThermoFileOpenFailMessage>
+	<ThermoFileSaveFailMessage>Не удалось сохранить файл thermo_stock.xml</ThermoFileSaveFailMessage>
+	
+	<ThermoFormText>Термокомпенсация</ThermoFormText>
+	<ThermoCalibModeText>Режим</ThermoCalibModeText>
+	<ThermoCalibRangeText>Диапазон</ThermoCalibRangeText>
+	<ThermoCalibTableText>Данные пользователя:</ThermoCalibTableText>
+	<ThermoCalibTableColumnNumText>№</ThermoCalibTableColumnNumText>
+	<ThermoCalibTableColumnFreqText>F, Гц</ThermoCalibTableColumnFreqText>
+	<ThermoPolyPowText>Степень полинома</ThermoPolyPowText>
+	<ThermoCurrentCoeffsText>Текущие коэффициенты:</ThermoCurrentCoeffsText>
+	<ThermoCoeffsTableColumnPowText>Степень</ThermoCoeffsTableColumnPowText>
+	<ThermoCoeffsTableColumnCoeffText>Коэфф.</ThermoCoeffsTableColumnCoeffText>
+	<ThermoClearText>Очистить</ThermoClearText>
+	<ThermoPolyCoeffsText>Коэффициенты полинома</ThermoPolyCoeffsText>
+	<ThermoLoadFileText>Загрузить</ThermoLoadFileText>
+	<ThermoSaveFileText>Сохранить</ThermoSaveFileText>
+	<ThermoCalcCoeffsText>Рассчитать</ThermoCalcCoeffsText>
+	<ThermoWriteText>Записать</ThermoWriteText>
+	<ThermoReadText>Прочитать</ThermoReadText>
+	<ThermoWriteDefaultText>Записать заводские настройки</ThermoWriteDefaultText>
+	<ThermoChartXLabelText>Температура</ThermoChartXLabelText>
+	<ThermoChartYLabelText>Коэффициент</ThermoChartYLabelText>
+	<ThermoChartYReadingLabelText>F, Гц</ThermoChartYReadingLabelText>
+	<ThermoChartTitleText>График аппроксимации</ThermoChartTitleText>
+	<ThermoChartReadedText>Прочитанные</ThermoChartReadedText>
+	<ThermoChartRestoredText>Востановленные</ThermoChartRestoredText>
+	<ThermoChartResultText>Итоговые</ThermoChartResultText>
+	<ThermoCalcFailMessage>Не удалось рассчитать с текущими коэффициентами</ThermoCalcFailMessage>
+	<ThermoPolyFailMessage>Полином не задан</ThermoPolyFailMessage>
+	
+	<SMSParamsText>Параметры</SMSParamsText>
+	<SMSIDText>ID устройства</SMSIDText>
+	<SMSBaudrateText>Скорость обмена</SMSBaudrateText>
+	<SMSTimeoutText>Таймаут</SMSTimeoutText>
+	<SMSRequestText>Запросы</SMSRequestText>
+	<SMSResponceText>Ответы</SMSResponceText>
+	<SMSCheckText>Проверить</SMSCheckText>
+	<SMSGenerateText>Сгененрировать</SMSGenerateText>
+	
+	<CalibFormText>Калибровка</CalibFormText>
+	<btDoCalibText>Калибровать</btDoCalibText>
+	<btCancelCalibText>Отмена</btCancelCalibText>
+	<calibStageTimeoutMessage>Время ожидания истекло</calibStageTimeoutMessage>
+	<calibShortcutReqMessage>Соедините щуп с центральной трубкой</calibShortcutReqMessage>
+	<calibShortcutRemoveMessage>Отсоедините щуп от центральной трубки</calibShortcutRemoveMessage>
+	<calibStage1Message>Устанавливается соединение...</calibStage1Message>
+	<calibStage2Message>Соедините щуп с центральной трубкой...</calibStage2Message>
+	<calibStage3Message>Запрос на калибровку...</calibStage3Message>
+	<calibStage4Message>Готовность к калибровке...</calibStage4Message>
+	<calibStage5Message>Отсоедините щуп от центральной трубки...</calibStage5Message>
+	<calibStage6Message>Выходной контроль...</calibStage6Message>
+</Translation>

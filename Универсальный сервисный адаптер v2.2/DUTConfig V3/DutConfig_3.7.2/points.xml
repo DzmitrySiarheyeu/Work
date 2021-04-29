@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Points xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Table_baze>
+    <Point>
+      <number>1</number>
+      <x>20</x>
+      <y>534</y>
+    </Point>
+    <Point>
+      <number>2</number>
+      <x>30</x>
+      <y>529</y>
+    </Point>
+    <Point>
+      <number>3</number>
+      <x>40</x>
+      <y>520</y>
+    </Point>
+    <Point>
+      <number>4</number>
+      <x>50</x>
+      <y>507</y>
+    </Point>
+    <Point>
+      <number>5</number>
+      <x>60</x>
+      <y>494</y>
+    </Point>
+    <Point>
+      <number>6</number>
+      <x>70</x>
+      <y>491</y>
+    </Point>
+  </Table_baze>
+  <Table_read_from_device />
+  <Table_restore />
+  <Table_yitog />
+  <Table_current>
+    <Point_Current>
+      <x>X^0</x>
+      <y>5.3278899192810059</y>
+    </Point_Current>
+    <Point_Current>
+      <x>X^1</x>
+      <y>-0.47552394866943359</y>
+    </Point_Current>
+    <Point_Current>
+      <x>X^2</x>
+      <y>0.0014198243152350187</y>
+    </Point_Current>
+    <Point_Current>
+      <x>X^3</x>
+      <y>0.00035326293436810374</y>
+    </Point_Current>
+    <Point_Current>
+      <x>X^4</x>
+      <y>-4.2764377212733962E-06</y>
+    </Point_Current>
+  </Table_current>
+  <F>true</F>
+  <STEP_POLINOM>3</STEP_POLINOM>
+  <STEP_POLINOM_CURRENT>5</STEP_POLINOM_CURRENT>
+  <Fmin>3917</Fmin>
+  <Fmax>6428</Fmax>
+  <Diap>1023</Diap>
+  <f>true</f>
+</Points>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<DefaultSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DefaultLanguage>English</DefaultLanguage>
+  <Port>COM5</Port>
+  <Baudrate>19200</Baudrate>
+  <ModbusID>1</ModbusID>
+</DefaultSettings>

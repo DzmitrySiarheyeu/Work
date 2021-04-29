@@ -1,0 +1,15 @@
+D:\VSS_WORK\ДОТ\ПО верхнего уровня\Dut Config 3\DUTConfig V3.root\DUTConfig V3\obj\x86\Release\DUTConfig_V3.Forms.AnalogForm.resources
+D:\VSS_WORK\ДОТ\ПО верхнего уровня\Dut Config 3\DUTConfig V3.root\DUTConfig V3\obj\x86\Release\DUTConfig_V3.Forms.CalibrationForm.resources
+D:\VSS_WORK\ДОТ\ПО верхнего уровня\Dut Config 3\DUTConfig V3.root\DUTConfig V3\obj\x86\Release\DUTConfig_V3.Forms.FirmChange.resources
+D:\VSS_WORK\ДОТ\ПО верхнего уровня\Dut Config 3\DUTConfig V3.root\DUTConfig V3\obj\x86\Release\DUTConfig_V3.Forms.Fl_termo_window.resources
+D:\VSS_WORK\ДОТ\ПО верхнего уровня\Dut Config 3\DUTConfig V3.root\DUTConfig V3\obj\x86\Release\DUTConfig_V3.Forms.GraphControl.resources
+D:\VSS_WORK\ДОТ\ПО верхнего уровня\Dut Config 3\DUTConfig V3.root\DUTConfig V3\obj\x86\Release\DUTConfig_V3.Forms.MainForm.resources
+D:\VSS_WORK\ДОТ\ПО верхнего уровня\Dut Config 3\DUTConfig V3.root\DUTConfig V3\obj\x86\Release\DUTConfig_V3.Forms.InterfaceForm.resources
+D:\VSS_WORK\ДОТ\ПО верхнего уровня\Dut Config 3\DUTConfig V3.root\DUTConfig V3\obj\x86\Release\DUTConfig_V3.Forms.SMS.resources
+D:\VSS_WORK\ДОТ\ПО верхнего уровня\Dut Config 3\DUTConfig V3.root\DUTConfig V3\obj\x86\Release\DUTConfig_V3.Properties.Resources.resources
+D:\VSS_WORK\ДОТ\ПО верхнего уровня\Dut Config 3\DUTConfig V3.root\DUTConfig V3\obj\x86\Release\DUTConfig V3.csproj.GenerateResource.Cache
+D:\VSS_WORK\ДОТ\ПО верхнего уровня\Dut Config 3\DUTConfig V3.root\DUTConfig V3\bin\Release\DUTConfig V3.exe
+D:\VSS_WORK\ДОТ\ПО верхнего уровня\Dut Config 3\DUTConfig V3.root\DUTConfig V3\bin\Release\DUTConfig V3.pdb
+D:\VSS_WORK\ДОТ\ПО верхнего уровня\Dut Config 3\DUTConfig V3.root\DUTConfig V3\obj\x86\Release\DUTConfig V3.csprojResolveAssemblyReference.cache
+D:\VSS_WORK\ДОТ\ПО верхнего уровня\Dut Config 3\DUTConfig V3.root\DUTConfig V3\obj\x86\Release\DUTConfig V3.exe
+D:\VSS_WORK\ДОТ\ПО верхнего уровня\Dut Config 3\DUTConfig V3.root\DUTConfig V3\obj\x86\Release\DUTConfig V3.pdb

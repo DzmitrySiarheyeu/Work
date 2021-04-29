@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DUTConfig V3", "DUTConfig V3.csproj", "{CE34B880-C542-4699-A2F0-AB744B990842}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = DUTConfig\u0020V3.csproj
+		SccLocalPath1 = .
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE34B880-C542-4699-A2F0-AB744B990842}.Debug|x86.ActiveCfg = Debug|x86
+		{CE34B880-C542-4699-A2F0-AB744B990842}.Debug|x86.Build.0 = Debug|x86
+		{CE34B880-C542-4699-A2F0-AB744B990842}.Release|x86.ActiveCfg = Release|x86
+		{CE34B880-C542-4699-A2F0-AB744B990842}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
