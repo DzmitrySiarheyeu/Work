@@ -1,0 +1,1585 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega168p.o (exit)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(atol.o)
+                              build/main.o (symbol from plugin) (atol)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy_P.o)
+                              build/main.o (symbol from plugin) (memcpy_P)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strcpy_P.o)
+                              build/main.o (symbol from plugin) (strcpy_P)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strlen_P.o)
+                              build/main.o (symbol from plugin) (__strlen_P)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(itoa_ncheck.o)
+                              build/main.o (symbol from plugin) (__itoa_ncheck)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(mulsi10.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(atol.o) (__mulsi_const_10)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ultoa_ncheck.o)
+                              build/main.o (symbol from plugin) (__ultoa_ncheck)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(utoa_ncheck.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(itoa_ncheck.o) (__utoa_common)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(iob.o)
+                              build/./lib/LCD_133X65_UC1601S.o (symbol from plugin) (__iob)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strrev.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ultoa_ncheck.o) (strrev)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libatmega168p.a(eerd_byte.o)
+                              build/main.o (symbol from plugin) (eeprom_read_byte)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(iob.o) (__do_clear_bss)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+                              C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o (__addsf3)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o) (__addsf3x)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+                              C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o (__fixunssfsi)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+                              C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o (__floatunsisf)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_inf)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_nan)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_pscA)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_pscB)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o) (__fp_round)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_split3)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_zero)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+                              C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o (__mulsf3)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o) (__mulsf3x)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+                              C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o (__udivmodhi4)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+                              C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o (__udivmodsi4)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+                              C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o (__tablejump2__)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+                              C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o (__do_copy_data)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+                              C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o (__prologue_saves__)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+                              C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o (__epilogue_restores__)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy.o)
+                              C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o (memcpy)
+
+Allocating common symbols
+Common symbol       size              file
+
+modbus_rx_data      0x10              build/main.o (symbol from plugin)
+CPT0                0x12              build/./lib/modbus/mbfanction0.o (symbol from plugin)
+frame               0x14              build/main.o (symbol from plugin)
+__iob               0x6               c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(iob.o)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/main.o (symbol from plugin)
+ .text          0x00000000        0x0 build/./lib/ADC.o (symbol from plugin)
+ .text          0x00000000        0x0 build/./lib/i2c.o (symbol from plugin)
+ .text          0x00000000        0x0 build/./lib/timer.o (symbol from plugin)
+ .text          0x00000000        0x0 build/./lib/Button.o (symbol from plugin)
+ .text          0x00000000        0x0 build/./lib/event.o (symbol from plugin)
+ .text          0x00000000        0x0 build/./lib/uart.o (symbol from plugin)
+ .text          0x00000000        0x0 build/./lib/LCD_133X65_UC1601S.o (symbol from plugin)
+ .text          0x00000000        0x0 build/./lib/freq.o (symbol from plugin)
+ .text          0x00000000        0x0 build/./lib/modbus/MBServer.o (symbol from plugin)
+ .text          0x00000000        0x0 build/./lib/modbus/mbfanction0.o (symbol from plugin)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000003         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+user_signatures  0x00850000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega168p.o
+LOAD build/main.o
+LOAD C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+LOAD C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+LOAD C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+LOAD C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+LOAD build/./lib/ADC.o
+LOAD build/./lib/i2c.o
+LOAD build/./lib/timer.o
+LOAD build/./lib/Button.o
+LOAD build/./lib/event.o
+LOAD build/./lib/uart.o
+LOAD build/./lib/LCD_133X65_UC1601S.o
+LOAD build/./lib/freq.o
+LOAD build/./lib/modbus/MBServer.o
+LOAD build/./lib/modbus/mbfanction0.o
+START GROUP
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a
+END GROUP
+START GROUP
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libatmega168p.a
+END GROUP
+                0x00020000                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x20000
+                0x0000ffa0                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xffa0
+                0x00010000                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x00000003]                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x00000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x00000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x00000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x38d4
+ *(.vectors)
+ .vectors       0x00000000       0x68 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega168p.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+ .progmem.gcc_sw_table
+                0x00000068        0xe C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+ .progmem.gcc_sw_table
+                0x00000076       0x12 C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                0x00000088                . = ALIGN (0x2)
+                0x00000088                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000088        0x0 linker stubs
+ *(.trampolines*)
+                0x00000088                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem*)
+ .progmem.data.str1.1
+                0x00000088       0xa5 C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+ .progmem.data.str1.1
+                0x0000012d       0x18 C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+ .progmem.data  0x00000145      0x44f C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+ .progmem.data.str1.1
+                0x00000594      0x274 C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                                0x275 (size before relaxing)
+                0x0000065c                str_interval
+                0x0000066d                str_auto_send
+                0x0000067b                str_net_mode
+                0x00000689                str_baudrate
+                0x00000692                str_id
+                0x000006c2                str_t_average
+                0x000006cd                str_n_max
+                0x000006d2                str_full_tank
+                0x000006dc                str_empty_tank
+                0x000006fa                str_modbus_error
+                0x00000701                str_freq
+                0x0000070b                str_level_n
+                0x00000716                str_level_precent
+                0x00000765                str_title_rs485
+ .progmem.data  0x00000808       0xa8 C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                0x000008b0                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x000008b0                __ctors_start = .
+ *(.ctors)
+                0x000008b0                __ctors_end = .
+                0x000008b0                __dtors_start = .
+ *(.dtors)
+                0x000008b0                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x000008b0        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega168p.o
+                0x000008b0                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x000008b0        0xc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega168p.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x000008bc       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+                0x000008bc                __do_clear_bss
+ .init4         0x000008cc       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+                0x000008cc                __do_copy_data
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x000008e2        0x8 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega168p.o
+ *(.init9)
+ *(.text)
+ .text          0x000008ea        0x2 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega168p.o
+                0x000008ea                __vector_22
+                0x000008ea                __vector_1
+                0x000008ea                __vector_24
+                0x000008ea                __vector_12
+                0x000008ea                __bad_interrupt
+                0x000008ea                __vector_6
+                0x000008ea                __vector_3
+                0x000008ea                __vector_23
+                0x000008ea                __vector_25
+                0x000008ea                __vector_11
+                0x000008ea                __vector_17
+                0x000008ea                __vector_5
+                0x000008ea                __vector_4
+                0x000008ea                __vector_21
+                0x000008ea                __vector_15
+                0x000008ea                __vector_8
+                0x000008ea                __vector_14
+ .text          0x000008ec      0xe5c C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+                0x000008ec                main_event_cb.lto_priv.29
+                0x000010ea                rs232_baud_select_event_cb.lto_priv.33
+                0x00001222                rs232_settings_event_cb.lto_priv.31
+                0x000014a8                rs232_param_adjust_event_cb.lto_priv.34
+ .text          0x00001748      0xc34 C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                0x00001748                lcpy.3054.lto_priv.64
+                0x000017c0                modbus_poll_wr.lto_priv.63
+                0x00001806                modbus_poll_r.lto_priv.55
+                0x0000184a                menu_row_highlight.lto_priv.59
+                0x00001858                load_frame.lto_priv.57
+                0x000018b2                fb_clear_line.lto_priv.22
+                0x000018d8                fb_put_str.lto_priv.20
+                0x00001908                fb_put_tag_str.lto_priv.61
+                0x00001952                fb_put_tag.lto_priv.62
+                0x000019b4                print_ushort_register.lto_priv.60
+                0x00001a26                redraw_partial.lto_priv.21
+                0x00001b38                redraw.lto_priv.56
+                0x00001b54                rs232_id_select_event_cb.lto_priv.32
+                0x00001c8a                mode_select_event_cb.lto_priv.28
+                0x00001da4                LCD_puts
+                0x00001dd8                rs232_disable.lto_priv.40
+                0x00001dde                rs232_enable.lto_priv.58
+                0x00001de4                rs485_disable.lto_priv.39
+                0x00001dea                rs232_event_cb.lto_priv.30
+ .text          0x0000237c      0xa06 C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                0x000023ce                fb_put_str_redraw.constprop.18
+                0x000023da                MBSerialSend.constprop.14
+                0x0000242c                fb_put_tag_at.constprop.11
+                0x0000248c                GetInpRegsUSHORT.constprop.10
+                0x000024a4                memrevercy.constprop.9
+                0x000024b8                GetInpRegsFLOAT.constprop.8
+                0x000024f2                fb_put_u8.constprop.4
+                0x00002540                __vector_9
+                0x00002562                __vector_19
+                0x000025ea                __vector_20
+                0x00002628                __vector_18
+                0x000026e0                modbus_ok.lto_priv.75
+                0x000027c0                __vector_13
+                0x000027fa                __vector_10
+                0x0000285c                __vector_7
+                0x00002860                soft_PWM_stop
+                0x00002876                LCD_open
+                0x00002884                LCD_clear
+                0x000028b8                LCD_putchar
+                0x0000290a                _LCD_putchar.lto_priv.38
+                0x00002914                LCD_write_reg.lto_priv.41
+                0x0000292e                LCD_goto
+                0x00002958                LCD_put_large_digit.constprop.13
+                0x000029c0                LCD_put_large_int.constprop.12
+                0x00002ade                LCD_put_hz.constprop.6
+                0x00002b02                UART_init
+                0x00002b52                get_key_rpt
+                0x00002b68                get_key_press
+                0x00002b7e                __vector_16
+                0x00002d5c                timer0_reset
+                0x00002d70                timer0_expired
+ .text          0x00002d82      0x5f2 C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                0x00002d82                i2c_stop
+                0x00002d92                i2c_busy_wait.lto_priv.23
+                0x00002dd2                i2c_write
+                0x00003022                ADC_ready
+                0x000030a8                main
+                0x00003360                __vector_2
+ .text          0x00003374        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text          0x00003374        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(atol.o)
+ .text          0x00003374        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy_P.o)
+ .text          0x00003374        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strcpy_P.o)
+ .text          0x00003374        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strlen_P.o)
+ .text          0x00003374        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(itoa_ncheck.o)
+ .text          0x00003374        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(mulsi10.o)
+ .text          0x00003374        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ultoa_ncheck.o)
+ .text          0x00003374        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(utoa_ncheck.o)
+ .text          0x00003374        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(iob.o)
+ .text          0x00003374        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strrev.o)
+ .text          0x00003374        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libatmega168p.a(eerd_byte.o)
+ .text          0x00003374        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text          0x00003374        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+ .text          0x00003374        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+ .text          0x00003374        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+ .text          0x00003374        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .text          0x00003374        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .text          0x00003374        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .text          0x00003374        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .text          0x00003374        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .text          0x00003374        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .text          0x00003374        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .text          0x00003374        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .text          0x00003374        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .text          0x00003374        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .text          0x00003374        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+ .text          0x00003374        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text          0x00003374        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .text          0x00003374        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text          0x00003374        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .text          0x00003374        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .text          0x00003374        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy.o)
+                0x00003374                . = ALIGN (0x2)
+ *(.text.*)
+ .text.libgcc.mul
+                0x00003374        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00003374        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00003374        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00003374        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00003374        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00003374        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00003374        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.avr-libc
+                0x00003374       0x4c c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(atol.o)
+                0x00003374                atol
+ .text.avr-libc
+                0x000033c0       0x12 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy_P.o)
+                0x000033c0                memcpy_P
+ .text.avr-libc
+                0x000033d2        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strcpy_P.o)
+                0x000033d2                strcpy_P
+ .text.avr-libc
+                0x000033e0       0x12 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strlen_P.o)
+                0x000033e0                __strlen_P
+ .text.avr-libc
+                0x000033f2       0x14 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(itoa_ncheck.o)
+                0x000033f2                __itoa_ncheck
+ .text.avr-libc
+                0x00003406       0x2a c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(mulsi10.o)
+                0x00003406                __mulsi_const_10
+ .text.avr-libc
+                0x00003430       0x42 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ultoa_ncheck.o)
+                0x00003430                __ultoa_ncheck
+                0x00003432                __ultoa_common
+ .text.avr-libc
+                0x00003472       0x32 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(utoa_ncheck.o)
+                0x00003472                __utoa_ncheck
+                0x00003474                __utoa_common
+ .text.avr-libc
+                0x000034a4       0x20 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strrev.o)
+                0x000034a4                strrev
+ .text.avr-libc
+                0x000034c4       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libatmega168p.a(eerd_byte.o)
+                0x000034c4                eeprom_read_byte
+ .text.libgcc.mul
+                0x000034d4        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x000034d4        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x000034d4        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x000034d4        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x000034d4        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x000034d4        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x000034d4        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.avr-libc.fplib
+                0x000034d4        0xa c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+                0x000034d4                __subsf3
+                0x000034d6                __addsf3
+ .text.avr-libc.fplib
+                0x000034de       0xc0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+                0x000034f8                __addsf3x
+ .text.avr-libc.fplib
+                0x0000359e       0x58 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+                0x0000359e                __fixunssfsi
+ .text.avr-libc.fplib
+                0x000035f6       0x7a c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+                0x000035f6                __floatunsisf
+                0x000035fa                __floatsisf
+ .text.avr-libc.fplib
+                0x00003670        0xc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+                0x00003670                __fp_inf
+ .text.avr-libc.fplib
+                0x0000367c        0x6 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+                0x0000367c                __fp_nan
+ .text.avr-libc.fplib
+                0x00003682        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+                0x00003682                __fp_pscA
+ .text.avr-libc.fplib
+                0x00003690        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+                0x00003690                __fp_pscB
+ .text.avr-libc.fplib
+                0x0000369e       0x22 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+                0x0000369e                __fp_round
+ .text.avr-libc.fplib
+                0x000036c0       0x44 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+                0x000036c0                __fp_split3
+                0x000036d0                __fp_splitA
+ .text.avr-libc.fplib
+                0x00003704        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+                0x00003704                __fp_zero
+                0x00003706                __fp_szero
+ .text.avr-libc.fplib
+                0x00003712        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+                0x00003712                __mulsf3
+ .text.avr-libc.fplib
+                0x00003716       0xc2 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                0x0000372a                __mulsf3x
+                0x0000372e                __mulsf3_pse
+ .text.libgcc.mul
+                0x000037d8        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.div
+                0x000037d8       0x28 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+                0x000037d8                __udivmodhi4
+ .text.libgcc   0x00003800        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.prologue
+                0x00003800        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.builtins
+                0x00003800        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fmul
+                0x00003800        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fixed
+                0x00003800        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.mul
+                0x00003800        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.div
+                0x00003800       0x44 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+                0x00003800                __udivmodsi4
+ .text.libgcc   0x00003844        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x00003844        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x00003844        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x00003844        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x00003844        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x00003844        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.div
+                0x00003844        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc   0x00003844        0xc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+                0x00003844                __tablejump2__
+ .text.libgcc.prologue
+                0x00003850        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.builtins
+                0x00003850        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.fmul
+                0x00003850        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.fixed
+                0x00003850        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.mul
+                0x00003850        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00003850        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00003850        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00003850        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00003850        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00003850        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x00003850        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00003850        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.div
+                0x00003850        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc   0x00003850        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.prologue
+                0x00003850       0x38 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+                0x00003850                __prologue_saves__
+ .text.libgcc.builtins
+                0x00003888        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.fmul
+                0x00003888        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.fixed
+                0x00003888        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.mul
+                0x00003888        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.div
+                0x00003888        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc   0x00003888        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.prologue
+                0x00003888       0x36 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+                0x00003888                __epilogue_restores__
+ .text.libgcc.builtins
+                0x000038be        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.fmul
+                0x000038be        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.fixed
+                0x000038be        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .text.avr-libc
+                0x000038be       0x12 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy.o)
+                0x000038be                memcpy
+                0x000038d0                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x000038d0        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+                0x000038d0                _exit
+                0x000038d0                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x000038d0        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x000038d4                _etext = .
+
+.data           0x00800100       0x30 load address 0x000038d4
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800100        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega168p.o
+ .data          0x00800100        0x1 C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+                0x00800100                baud_index.lto_priv.68
+ .data          0x00800101        0x1 C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+ .data          0x00800102        0x1 C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+ .data          0x00800103        0xf C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+ .data          0x00800112        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .data          0x00800112        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(atol.o)
+ .data          0x00800112        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy_P.o)
+ .data          0x00800112        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strcpy_P.o)
+ .data          0x00800112        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strlen_P.o)
+ .data          0x00800112        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(itoa_ncheck.o)
+ .data          0x00800112        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(mulsi10.o)
+ .data          0x00800112        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ultoa_ncheck.o)
+ .data          0x00800112        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(utoa_ncheck.o)
+ .data          0x00800112        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(iob.o)
+ .data          0x00800112        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strrev.o)
+ .data          0x00800112        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libatmega168p.a(eerd_byte.o)
+ .data          0x00800112        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .data          0x00800112        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+ .data          0x00800112        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+ .data          0x00800112        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+ .data          0x00800112        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .data          0x00800112        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .data          0x00800112        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .data          0x00800112        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .data          0x00800112        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .data          0x00800112        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .data          0x00800112        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .data          0x00800112        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .data          0x00800112        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .data          0x00800112        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .data          0x00800112        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+ .data          0x00800112        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .data          0x00800112        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .data          0x00800112        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .data          0x00800112        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .data          0x00800112        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .data          0x00800112        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy.o)
+ *(.data*)
+ *(.rodata)
+ .rodata        0x00800112       0x1e C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+                0x00800118                baud_lut.lto_priv.69
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x00800130                . = ALIGN (0x2)
+                0x00800130                _edata = .
+                0x00800130                PROVIDE (__data_end, .)
+
+.bss            0x00800130      0x1dc
+                0x00800130                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x00800130        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega168p.o
+ .bss           0x00800130       0x3d C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+                0x00800130                val.3052.lto_priv.65
+                0x00800137                parameters
+                0x00800145                frameSelection.lto_priv.66
+ .bss           0x0080016d       0x1a C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+ .bss           0x00800187      0x122 C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                0x00800187                preload.lto_priv.47
+                0x00800189                counter_3s.lto_priv.48
+                0x0080018b                sleep_counter.lto_priv.24
+                0x0080018d                TimerEvents.lto_priv.25
+                0x0080018e                rpt.lto_priv.37
+                0x0080018f                ct1.lto_priv.36
+                0x00800190                ct0.lto_priv.35
+                0x00800191                key_state.lto_priv.27
+                0x00800192                beeper_mode.lto_priv.26
+                0x00800193                key_press.lto_priv.67
+                0x00800194                capture_count
+                0x00800195                result_val
+                0x00800197                result_timer_ovf_count
+                0x00800199                timer_ovf_count
+                0x0080019a                Buf_data.lto_priv.53
+                0x0080019c                framebuffer.lto_priv.43
+                0x0080024c                use_rs485
+                0x0080024d                pUDR0
+                0x0080024f                DataBuffer0
+ .bss           0x008002a9       0x5d C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                0x008002a9                ApplicationFlags
+                0x008002aa                adc.lto_priv.42
+                0x008002b0                rs232_param_adjust_task.lto_priv.70
+                0x008002b6                rs232_baud_select_task.lto_priv.52
+                0x008002bc                rs232_id_select_task.lto_priv.51
+                0x008002c2                rs232_settings_task.lto_priv.54
+                0x008002c8                rs232_task.lto_priv.46
+                0x008002ce                rs485_main_task.lto_priv.74
+                0x008002d4                rs232_main_task.lto_priv.73
+                0x008002da                freq_task.lto_priv.71
+                0x008002e0                analog_task.lto_priv.72
+                0x008002e6                ApplicationEvents
+                0x008002e7                mode_select_task.lto_priv.45
+                0x008002ed                current_task.lto_priv.44
+                0x008002ef                adc_channel.lto_priv.50
+                0x008002f0                result.lto_priv.49
+ .bss           0x00800306        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .bss           0x00800306        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(atol.o)
+ .bss           0x00800306        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy_P.o)
+ .bss           0x00800306        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strcpy_P.o)
+ .bss           0x00800306        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strlen_P.o)
+ .bss           0x00800306        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(itoa_ncheck.o)
+ .bss           0x00800306        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(mulsi10.o)
+ .bss           0x00800306        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ultoa_ncheck.o)
+ .bss           0x00800306        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(utoa_ncheck.o)
+ .bss           0x00800306        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(iob.o)
+ .bss           0x00800306        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strrev.o)
+ .bss           0x00800306        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libatmega168p.a(eerd_byte.o)
+ .bss           0x00800306        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x00800306        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+ .bss           0x00800306        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+ .bss           0x00800306        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+ .bss           0x00800306        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .bss           0x00800306        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .bss           0x00800306        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .bss           0x00800306        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .bss           0x00800306        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .bss           0x00800306        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .bss           0x00800306        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .bss           0x00800306        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .bss           0x00800306        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .bss           0x00800306        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .bss           0x00800306        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+ .bss           0x00800306        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .bss           0x00800306        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .bss           0x00800306        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .bss           0x00800306        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .bss           0x00800306        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .bss           0x00800306        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy.o)
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x00800306        0x6 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(iob.o)
+                0x00800306                __iob
+                0x0080030c                PROVIDE (__bss_end, .)
+                0x000038d4                __data_load_start = LOADADDR (.data)
+                0x00003904                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0080030c        0x0
+                [!provide]                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                [!provide]                PROVIDE (__noinit_end, .)
+                0x0080030c                _end = .
+                [!provide]                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000      0x200
+ *(.eeprom*)
+ .eeprom        0x00810000      0x200 C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                0x00810200                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x30
+ *(.comment)
+ .comment       0x00000000       0x31 C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+ .comment       0x00000000       0x31 C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+ .comment       0x00000000       0x31 C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+ .comment       0x00000000       0x31 C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+ .comment       0x00000000       0x30 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(iob.o)
+                                 0x31 (size before relaxing)
+
+.note.gnu.avr.deviceinfo
+                0x00000000       0x40
+ .note.gnu.avr.deviceinfo
+                0x00000000       0x40 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega168p.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x80
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+ .debug_aranges
+                0x00000020       0x20 C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+ .debug_aranges
+                0x00000040       0x20 C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+ .debug_aranges
+                0x00000060       0x20 C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x6752
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x5f4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega168p.o
+ .debug_info    0x000005f4     0x1b5f C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+ .debug_info    0x00002153     0x1997 C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+ .debug_info    0x00003aea     0x166f C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+ .debug_info    0x00005159     0x15f9 C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+
+.debug_abbrev   0x00000000     0x17ec
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x5a2 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega168p.o
+ .debug_abbrev  0x000005a2      0x46b C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+ .debug_abbrev  0x00000a0d      0x4f7 C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+ .debug_abbrev  0x00000f04      0x4db C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+ .debug_abbrev  0x000013df      0x40d C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+
+.debug_line     0x00000000     0x2802
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000       0x1a c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega168p.o
+ .debug_line    0x0000001a      0xbdd C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+ .debug_line    0x00000bf7      0xa5f C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+ .debug_line    0x00001656      0xa2b C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+ .debug_line    0x00002081      0x781 C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+
+.debug_frame    0x00000000      0x78c
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xb4 C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+ .debug_frame   0x000000b4      0x278 C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+ .debug_frame   0x0000032c      0x3d0 C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+ .debug_frame   0x000006fc       0x90 C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+
+.debug_str      0x00000000     0x1ef8
+ *(.debug_str)
+ .debug_str     0x00000000      0x208 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega168p.o
+ .debug_str     0x00000208      0x9fe C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+                                0xa9f (size before relaxing)
+ .debug_str     0x00000c06      0x56a C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                0xac0 (size before relaxing)
+ .debug_str     0x00001170      0x653 C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                0x9a9 (size before relaxing)
+ .debug_str     0x000017c3      0x735 C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                                0xb1d (size before relaxing)
+
+.debug_loc      0x00000000     0x35ad
+ *(.debug_loc)
+ .debug_loc     0x00000000     0x100a C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+ .debug_loc     0x0000100a     0x10e1 C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+ .debug_loc     0x000020eb      0xf0e C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+ .debug_loc     0x00002ff9      0x5b4 C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x230
+ *(.debug_ranges)
+ .debug_ranges  0x00000000      0x148 C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+ .debug_ranges  0x00000148       0x80 C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+ .debug_ranges  0x000001c8       0x30 C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+ .debug_ranges  0x000001f8       0x38 C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(dist/main.elf elf32-avr)
+LOAD linker stubs
+
+Cross Reference Table
+
+Symbol                                            File
+ADC_convert_external_voltage                      build/./lib/ADC.o (symbol from plugin)
+ADC_convert_sensor_voltage                        build/./lib/ADC.o (symbol from plugin)
+                                                  build/main.o (symbol from plugin)
+ADC_convert_supply_current                        build/./lib/ADC.o (symbol from plugin)
+                                                  build/main.o (symbol from plugin)
+ADC_disable                                       build/./lib/ADC.o (symbol from plugin)
+                                                  build/main.o (symbol from plugin)
+ADC_enable                                        build/./lib/ADC.o (symbol from plugin)
+                                                  build/main.o (symbol from plugin)
+ADC_read                                          build/./lib/ADC.o (symbol from plugin)
+                                                  build/main.o (symbol from plugin)
+ADC_ready                                         C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                                                  build/./lib/ADC.o (symbol from plugin)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+                                                  build/main.o (symbol from plugin)
+ApplicationEvents                                 C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                                                  build/main.o (symbol from plugin)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+ApplicationFlags                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                                                  build/main.o (symbol from plugin)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+Buf_data.lto_priv.53                              C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+CPT0                                              build/./lib/modbus/mbfanction0.o (symbol from plugin)
+CheckCRC0                                         build/./lib/modbus/mbfanction0.o (symbol from plugin)
+DataBuffer0                                       C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  build/./lib/modbus/mbfanction0.o (symbol from plugin)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+                                                  build/./lib/modbus/MBServer.o (symbol from plugin)
+GetInpRegsFLOAT                                   build/./lib/modbus/MBServer.o (symbol from plugin)
+                                                  build/main.o (symbol from plugin)
+GetInpRegsFLOAT.constprop.8                       C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+GetInpRegsLONG                                    build/./lib/modbus/MBServer.o (symbol from plugin)
+                                                  build/main.o (symbol from plugin)
+GetInpRegsUSHORT                                  build/./lib/modbus/MBServer.o (symbol from plugin)
+                                                  build/main.o (symbol from plugin)
+GetInpRegsUSHORT.constprop.10                     C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+LCD_clear                                         C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  build/./lib/LCD_133X65_UC1601S.o (symbol from plugin)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  build/main.o (symbol from plugin)
+LCD_close                                         build/./lib/LCD_133X65_UC1601S.o (symbol from plugin)
+                                                  build/main.o (symbol from plugin)
+LCD_disable                                       build/./lib/LCD_133X65_UC1601S.o (symbol from plugin)
+                                                  build/main.o (symbol from plugin)
+LCD_goto                                          C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  build/./lib/LCD_133X65_UC1601S.o (symbol from plugin)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  build/main.o (symbol from plugin)
+LCD_init                                          build/./lib/LCD_133X65_UC1601S.o (symbol from plugin)
+                                                  build/main.o (symbol from plugin)
+LCD_open                                          C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  build/./lib/LCD_133X65_UC1601S.o (symbol from plugin)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                                                  build/main.o (symbol from plugin)
+LCD_put_hz                                        build/./lib/LCD_133X65_UC1601S.o (symbol from plugin)
+                                                  build/main.o (symbol from plugin)
+LCD_put_hz.constprop.6                            C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+LCD_put_large_digit.constprop.13                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+LCD_put_large_int                                 build/./lib/LCD_133X65_UC1601S.o (symbol from plugin)
+                                                  build/main.o (symbol from plugin)
+LCD_put_large_int.constprop.12                    C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+LCD_put_volts                                     build/./lib/LCD_133X65_UC1601S.o (symbol from plugin)
+                                                  build/main.o (symbol from plugin)
+LCD_putchar                                       C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  build/./lib/LCD_133X65_UC1601S.o (symbol from plugin)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  build/main.o (symbol from plugin)
+LCD_puts                                          C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  build/main.o (symbol from plugin)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+LCD_set_inverse_mode                              build/./lib/LCD_133X65_UC1601S.o (symbol from plugin)
+LCD_write_reg.lto_priv.41                         C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+MBSerialSend                                      build/./lib/modbus/mbfanction0.o (symbol from plugin)
+                                                  build/./lib/modbus/MBServer.o (symbol from plugin)
+MBSerialSend.constprop.14                         C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+Modbus_disable                                    build/./lib/modbus/MBServer.o (symbol from plugin)
+                                                  build/main.o (symbol from plugin)
+Modbus_enable                                     build/./lib/modbus/MBServer.o (symbol from plugin)
+                                                  build/main.o (symbol from plugin)
+PWM_start                                         build/./lib/freq.o (symbol from plugin)
+PWM_stop                                          build/./lib/freq.o (symbol from plugin)
+STR_DEVICE_NAME                                   build/main.o (symbol from plugin)
+STR_FW_TITLE                                      build/main.o (symbol from plugin)
+STR_FW_VERSION                                    build/main.o (symbol from plugin)
+ServerReadInputRegister                           build/./lib/modbus/MBServer.o (symbol from plugin)
+                                                  build/main.o (symbol from plugin)
+ServerWriteSingleRegister                         build/./lib/modbus/MBServer.o (symbol from plugin)
+                                                  build/main.o (symbol from plugin)
+TimerEvents.lto_priv.25                           C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+UART_disable                                      build/./lib/uart.o (symbol from plugin)
+                                                  build/main.o (symbol from plugin)
+UART_init                                         C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  build/./lib/uart.o (symbol from plugin)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+                                                  build/main.o (symbol from plugin)
+UART_transmit                                     build/./lib/uart.o (symbol from plugin)
+UartReceivePacket                                 build/./lib/modbus/mbfanction0.o (symbol from plugin)
+                                                  build/./lib/modbus/MBServer.o (symbol from plugin)
+_LCD_putchar.lto_priv.38                          C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+__FUSE_REGION_LENGTH__                            c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega168p.o
+__addsf3                                          c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+__addsf3x                                         c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+                                                  c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+__bad_interrupt                                   c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega168p.o
+__bss_end                                         c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+__bss_start                                       c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+__data_end                                        c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+__data_load_start                                 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+__data_start                                      c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+__do_clear_bss                                    c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+                                                  c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(iob.o)
+__do_copy_data                                    c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+__epilogue_restores__                             c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+__fixunssfsi                                      c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+__floatsisf                                       c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+__floatunsisf                                     c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+__fp_inf                                          c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+                                                  c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                                                  c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+__fp_nan                                          c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+                                                  c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                                                  c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+__fp_pscA                                         c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+                                                  c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                                                  c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+__fp_pscB                                         c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+                                                  c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                                                  c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+__fp_round                                        c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+                                                  c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+                                                  c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+__fp_split3                                       c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+                                                  c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                                                  c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+__fp_splitA                                       c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+                                                  c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+__fp_szero                                        c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+                                                  c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+__fp_zero                                         c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+                                                  c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+                                                  c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+__heap_end                                        c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega168p.o
+__init                                            c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega168p.o
+__iob                                             c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(iob.o)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                                                  build/./lib/LCD_133X65_UC1601S.o (symbol from plugin)
+__itoa_ncheck                                     c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(itoa_ncheck.o)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+                                                  build/main.o (symbol from plugin)
+__mulsf3                                          c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+__mulsf3_pse                                      c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+__mulsf3x                                         c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                                                  c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+__mulsi_const_10                                  c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(mulsi10.o)
+                                                  c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(atol.o)
+__prologue_saves__                                c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+__stack                                           c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega168p.o
+__strlen_P                                        c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strlen_P.o)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+                                                  build/main.o (symbol from plugin)
+__subsf3                                          c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+__tablejump2__                                    c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+__udivmodhi4                                      c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+__udivmodsi4                                      c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+__ultoa_common                                    c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ultoa_ncheck.o)
+__ultoa_ncheck                                    c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ultoa_ncheck.o)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  build/main.o (symbol from plugin)
+__utoa_common                                     c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(utoa_ncheck.o)
+                                                  c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(itoa_ncheck.o)
+__utoa_ncheck                                     c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(utoa_ncheck.o)
+__vector_1                                        c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega168p.o
+__vector_10                                       C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  build/./lib/freq.o (symbol from plugin)
+                                                  c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega168p.o
+__vector_11                                       c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega168p.o
+__vector_12                                       c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega168p.o
+__vector_13                                       C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  build/./lib/freq.o (symbol from plugin)
+                                                  c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega168p.o
+__vector_14                                       c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega168p.o
+__vector_15                                       c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega168p.o
+__vector_16                                       C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  build/./lib/timer.o (symbol from plugin)
+                                                  c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega168p.o
+__vector_17                                       c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega168p.o
+__vector_18                                       C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  build/./lib/modbus/mbfanction0.o (symbol from plugin)
+                                                  c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega168p.o
+__vector_19                                       C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  build/./lib/modbus/mbfanction0.o (symbol from plugin)
+                                                  c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega168p.o
+__vector_2                                        C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                                                  build/main.o (symbol from plugin)
+                                                  c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega168p.o
+__vector_20                                       C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  build/./lib/modbus/mbfanction0.o (symbol from plugin)
+                                                  c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega168p.o
+__vector_21                                       c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega168p.o
+__vector_22                                       c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega168p.o
+__vector_23                                       c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega168p.o
+__vector_24                                       c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega168p.o
+__vector_25                                       c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega168p.o
+__vector_3                                        c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega168p.o
+__vector_4                                        c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega168p.o
+__vector_5                                        c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega168p.o
+__vector_6                                        c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega168p.o
+__vector_7                                        C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  build/./lib/freq.o (symbol from plugin)
+                                                  c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega168p.o
+__vector_8                                        c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega168p.o
+__vector_9                                        C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  build/./lib/modbus/mbfanction0.o (symbol from plugin)
+                                                  c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega168p.o
+__vector_default                                  c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega168p.o
+__vectors                                         c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega168p.o
+_exit                                             c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+adc.lto_priv.42                                   C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+adc_channel.lto_priv.50                           C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+analog_task.lto_priv.72                           C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+atol                                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(atol.o)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+                                                  build/main.o (symbol from plugin)
+baud_index.lto_priv.68                            C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+baud_lut.lto_priv.69                              C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+beeper_mode.lto_priv.26                           C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+boot_logo_display                                 build/main.o (symbol from plugin)
+capture_count                                     C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  build/./lib/freq.o (symbol from plugin)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+check_modbus_packet                               build/./lib/modbus/mbfanction0.o (symbol from plugin)
+                                                  build/./lib/modbus/MBServer.o (symbol from plugin)
+counter_3s.lto_priv.48                            C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+create_frames                                     build/main.o (symbol from plugin)
+ct0.lto_priv.35                                   C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+ct1.lto_priv.36                                   C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+current_task.lto_priv.44                          C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+debounce_keys                                     build/./lib/Button.o (symbol from plugin)
+                                                  build/./lib/timer.o (symbol from plugin)
+eeprom_read_byte                                  c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libatmega168p.a(eerd_byte.o)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                                                  build/main.o (symbol from plugin)
+exit                                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+                                                  c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega168p.o
+fb_clear_line.lto_priv.22                         C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+fb_put_str.lto_priv.20                            C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+fb_put_str_redraw.constprop.18                    C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+fb_put_tag.lto_priv.62                            C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+fb_put_tag_at.constprop.11                        C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+fb_put_tag_str.lto_priv.61                        C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+fb_put_u8.constprop.4                             C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+font                                              build/./lib/LCD_133X65_UC1601S.o (symbol from plugin)
+font11x15                                         build/./lib/LCD_133X65_UC1601S.o (symbol from plugin)
+frame                                             build/main.o (symbol from plugin)
+frameSelection.lto_priv.66                        C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+frame_analog                                      build/main.o (symbol from plugin)
+frame_baud_select                                 build/main.o (symbol from plugin)
+frame_freq                                        build/main.o (symbol from plugin)
+frame_id_select                                   build/main.o (symbol from plugin)
+frame_mode_select                                 build/main.o (symbol from plugin)
+frame_param_adjust                                build/main.o (symbol from plugin)
+frame_rs232                                       build/main.o (symbol from plugin)
+frame_rs232_main                                  build/main.o (symbol from plugin)
+frame_rs232_settings                              build/main.o (symbol from plugin)
+frame_rs485_main                                  build/main.o (symbol from plugin)
+framebuffer.lto_priv.43                           C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+freq_task.lto_priv.71                             C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+frequency_measurement_start                       build/./lib/freq.o (symbol from plugin)
+                                                  build/main.o (symbol from plugin)
+frequency_measurement_stop                        build/./lib/freq.o (symbol from plugin)
+                                                  build/main.o (symbol from plugin)
+get_frequency                                     build/./lib/freq.o (symbol from plugin)
+                                                  build/main.o (symbol from plugin)
+get_key_long                                      build/./lib/Button.o (symbol from plugin)
+                                                  build/main.o (symbol from plugin)
+get_key_press                                     C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  build/./lib/Button.o (symbol from plugin)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+get_key_rpt                                       C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  build/./lib/Button.o (symbol from plugin)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+get_key_rpt_l                                     build/./lib/Button.o (symbol from plugin)
+                                                  build/main.o (symbol from plugin)
+get_key_short                                     build/./lib/Button.o (symbol from plugin)
+                                                  build/main.o (symbol from plugin)
+i2c_busy_wait.lto_priv.23                         C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+i2c_disable                                       build/./lib/i2c.o (symbol from plugin)
+                                                  build/main.o (symbol from plugin)
+i2c_init                                          build/./lib/i2c.o (symbol from plugin)
+                                                  build/main.o (symbol from plugin)
+i2c_read                                          build/./lib/i2c.o (symbol from plugin)
+i2c_start                                         build/./lib/i2c.o (symbol from plugin)
+                                                  build/./lib/LCD_133X65_UC1601S.o (symbol from plugin)
+i2c_stop                                          C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                                                  build/./lib/i2c.o (symbol from plugin)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  build/./lib/LCD_133X65_UC1601S.o (symbol from plugin)
+i2c_write                                         C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                                                  build/./lib/i2c.o (symbol from plugin)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  build/./lib/LCD_133X65_UC1601S.o (symbol from plugin)
+                                                  build/main.o (symbol from plugin)
+key_handler_init                                  build/./lib/Button.o (symbol from plugin)
+                                                  build/main.o (symbol from plugin)
+key_press.lto_priv.67                             C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+key_state.lto_priv.27                             C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+lcpy.3054.lto_priv.64                             C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+load_frame.lto_priv.57                            C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+logo                                              build/main.o (symbol from plugin)
+main                                              C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                                                  build/main.o (symbol from plugin)
+                                                  c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega168p.o
+main_event_cb.lto_priv.29                         C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+make_annoying_beep                                build/./lib/timer.o (symbol from plugin)
+                                                  build/main.o (symbol from plugin)
+memcpy                                            c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy.o)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+memcpy_P                                          c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy_P.o)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+                                                  build/main.o (symbol from plugin)
+memrevercy.constprop.9                            C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+menu_row_highlight.lto_priv.59                    C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+modbus_get_id                                     build/./lib/modbus/MBServer.o (symbol from plugin)
+                                                  build/main.o (symbol from plugin)
+modbus_ok.lto_priv.75                             C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+modbus_poll_r.lto_priv.55                         C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+modbus_poll_wr.lto_priv.63                        C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+modbus_read_ok                                    build/./lib/modbus/MBServer.o (symbol from plugin)
+                                                  build/main.o (symbol from plugin)
+modbus_rx_data                                    build/main.o (symbol from plugin)
+modbus_write_ok                                   build/./lib/modbus/MBServer.o (symbol from plugin)
+                                                  build/main.o (symbol from plugin)
+mode_select_event_cb.lto_priv.28                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+mode_select_task.lto_priv.45                      C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+pUDR0                                             C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  build/./lib/modbus/mbfanction0.o (symbol from plugin)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+                                                  build/./lib/modbus/MBServer.o (symbol from plugin)
+parameters                                        C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+                                                  build/main.o (symbol from plugin)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+preload.lto_priv.47                               C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+print_ushort_register.lto_priv.60                 C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+ready_to_sleep                                    build/./lib/timer.o (symbol from plugin)
+                                                  build/main.o (symbol from plugin)
+redraw.lto_priv.56                                C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+redraw_partial.lto_priv.21                        C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+result.lto_priv.49                                C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+result_timer_ovf_count                            C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  build/./lib/freq.o (symbol from plugin)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+result_val                                        C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  build/./lib/freq.o (symbol from plugin)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+rpt.lto_priv.37                                   C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+rs232_baud_select_event_cb.lto_priv.33            C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+rs232_baud_select_task.lto_priv.52                C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+rs232_disable.lto_priv.40                         C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+rs232_enable.lto_priv.58                          C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+rs232_event_cb.lto_priv.30                        C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+rs232_id_select_event_cb.lto_priv.32              C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+rs232_id_select_task.lto_priv.51                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+rs232_main_task.lto_priv.73                       C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+rs232_param_adjust_event_cb.lto_priv.34           C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+rs232_param_adjust_task.lto_priv.70               C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+rs232_settings_event_cb.lto_priv.31               C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+rs232_settings_task.lto_priv.54                   C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+rs232_task.lto_priv.46                            C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+rs485_disable.lto_priv.39                         C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+rs485_main_task.lto_priv.74                       C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+schedule_delayed_sleep                            build/./lib/timer.o (symbol from plugin)
+                                                  build/main.o (symbol from plugin)
+sleep_counter.lto_priv.24                         C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+sleep_timer_reset                                 build/./lib/timer.o (symbol from plugin)
+                                                  build/main.o (symbol from plugin)
+soft_PWM_start                                    build/./lib/freq.o (symbol from plugin)
+                                                  build/main.o (symbol from plugin)
+soft_PWM_stop                                     C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  build/./lib/freq.o (symbol from plugin)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+                                                  build/main.o (symbol from plugin)
+str_auto_send                                     C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                                                  build/main.o (symbol from plugin)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+str_baudrate                                      C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                                                  build/main.o (symbol from plugin)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+str_bin_mode                                      build/main.o (symbol from plugin)
+str_cal_check                                     build/main.o (symbol from plugin)
+str_cal_error                                     build/main.o (symbol from plugin)
+str_cal_in_progress                               build/main.o (symbol from plugin)
+str_cal_success                                   build/main.o (symbol from plugin)
+str_conn_settings                                 build/main.o (symbol from plugin)
+str_connect_electrode                             build/main.o (symbol from plugin)
+str_current_draw                                  build/main.o (symbol from plugin)
+str_disconnect_electrode                          build/main.o (symbol from plugin)
+str_empty_tank                                    C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                                                  build/main.o (symbol from plugin)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+str_excl                                          build/main.o (symbol from plugin)
+str_exit                                          build/main.o (symbol from plugin)
+str_exset                                         build/main.o (symbol from plugin)
+str_f0_0                                          build/main.o (symbol from plugin)
+str_f0_1                                          build/main.o (symbol from plugin)
+str_f0_2                                          build/main.o (symbol from plugin)
+str_f0_3                                          build/main.o (symbol from plugin)
+str_f0_4                                          build/main.o (symbol from plugin)
+str_f0_7                                          build/main.o (symbol from plugin)
+str_f2_0                                          build/main.o (symbol from plugin)
+str_f4_0                                          build/main.o (symbol from plugin)
+str_f5_0                                          build/main.o (symbol from plugin)
+str_f6_0                                          build/main.o (symbol from plugin)
+str_f6_3                                          build/main.o (symbol from plugin)
+str_f7_0                                          build/main.o (symbol from plugin)
+str_f7_2                                          build/main.o (symbol from plugin)
+str_f7_3                                          build/main.o (symbol from plugin)
+str_f7_5                                          build/main.o (symbol from plugin)
+str_f7_7                                          build/main.o (symbol from plugin)
+str_f8_0                                          build/main.o (symbol from plugin)
+str_f8_5                                          build/main.o (symbol from plugin)
+str_freq                                          C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                                                  build/main.o (symbol from plugin)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+str_full_tank                                     C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                                                  build/main.o (symbol from plugin)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+str_id                                            C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                                                  build/main.o (symbol from plugin)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+str_interval                                      C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                                                  build/main.o (symbol from plugin)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+str_level_n                                       C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                                                  build/main.o (symbol from plugin)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+str_level_precent                                 C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                                                  build/main.o (symbol from plugin)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+str_modbus_error                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                                                  build/main.o (symbol from plugin)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+str_n_max                                         C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                                                  build/main.o (symbol from plugin)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+str_net_mode                                      C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                                                  build/main.o (symbol from plugin)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+str_no_conn                                       build/main.o (symbol from plugin)
+str_null                                          build/main.o (symbol from plugin)
+str_off                                           build/main.o (symbol from plugin)
+str_okcn                                          build/main.o (symbol from plugin)
+str_on                                            build/main.o (symbol from plugin)
+str_param_edit                                    build/main.o (symbol from plugin)
+str_t_average                                     C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                                                  build/main.o (symbol from plugin)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+str_text_mode                                     build/main.o (symbol from plugin)
+str_title_rs232                                   build/main.o (symbol from plugin)
+str_title_rs485                                   C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans3.ltrans.o
+                                                  build/main.o (symbol from plugin)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+strcpy_P                                          c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strcpy_P.o)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+                                                  build/main.o (symbol from plugin)
+strrev                                            c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strrev.o)
+                                                  c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(utoa_ncheck.o)
+                                                  c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ultoa_ncheck.o)
+task_callback_register                            build/./lib/event.o (symbol from plugin)
+task_register                                     build/./lib/event.o (symbol from plugin)
+                                                  build/main.o (symbol from plugin)
+task_set_id                                       build/./lib/event.o (symbol from plugin)
+                                                  build/main.o (symbol from plugin)
+task_set_type                                     build/./lib/event.o (symbol from plugin)
+                                                  build/main.o (symbol from plugin)
+timer0_expired                                    C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  build/./lib/timer.o (symbol from plugin)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+                                                  build/main.o (symbol from plugin)
+timer0_preload_ms                                 build/./lib/timer.o (symbol from plugin)
+                                                  build/main.o (symbol from plugin)
+timer0_reset                                      C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  build/./lib/timer.o (symbol from plugin)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+                                                  build/main.o (symbol from plugin)
+timer3s_expired                                   build/./lib/timer.o (symbol from plugin)
+                                                  build/main.o (symbol from plugin)
+timer3s_reset                                     build/./lib/timer.o (symbol from plugin)
+                                                  build/main.o (symbol from plugin)
+timer_ovf_count                                   C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  build/./lib/freq.o (symbol from plugin)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+use_rs485                                         C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans2.ltrans.o
+                                                  build/./lib/modbus/mbfanction0.o (symbol from plugin)
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+                                                  build/./lib/modbus/MBServer.o (symbol from plugin)
+val.3052.lto_priv.65                              C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans0.ltrans.o
+                                                  C:\Users\apapk\AppData\Local\Temp\ccjpbONa.ltrans1.ltrans.o
