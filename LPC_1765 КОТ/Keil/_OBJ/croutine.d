@@ -1,0 +1,15 @@
+.\_obj\croutine.o: ..\FreeRTOS\Source\croutine.c
+.\_obj\croutine.o: ..\FreeRTOS\Source\include\FreeRTOS.h
+.\_obj\croutine.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+.\_obj\croutine.o: ..\FreeRTOS\Source\include\projdefs.h
+.\_obj\croutine.o: .\Config\FreeRTOSConfig.h
+.\_obj\croutine.o: ..\..\..\..\LPC17XX\LPC1700CMSIS\Core\CM3\DeviceSupport\NXP\LPC17xx\LPC17xx.h
+.\_obj\croutine.o: ..\..\..\..\LPC17XX\LPC1700CMSIS\Core\CM3\CoreSupport\core_cm3.h
+.\_obj\croutine.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\_obj\croutine.o: ..\..\..\..\LPC17XX\LPC1700CMSIS\Core\CM3\DeviceSupport\NXP\LPC17xx\system_LPC17xx.h
+.\_obj\croutine.o: ..\FreeRTOS\Source\include\portable.h
+.\_obj\croutine.o: ..\FreeRTOS\Source\portable\RVDS\ARM_CM3\portmacro.h
+.\_obj\croutine.o: ..\FreeRTOS\Source\include\mpu_wrappers.h
+.\_obj\croutine.o: ..\FreeRTOS\Source\include\task.h
+.\_obj\croutine.o: ..\FreeRTOS\Source\include\list.h
+.\_obj\croutine.o: ..\FreeRTOS\Source\include\croutine.h

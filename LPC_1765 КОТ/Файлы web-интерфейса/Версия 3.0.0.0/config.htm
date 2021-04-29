@@ -1,0 +1,447 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<link href="style.css" type="text/css" rel="stylesheet">
+<script language="javascript" type="text/javascript" src="net.js"></script>
+<script language="javascript" type="text/javascript" src="ini.js"></script>
+<title>Конфигурация</title>
+</head>
+
+<body>
+
+<script language="javascript" type="text/javascript">
+
+    /////////////////////////////////////////////////
+    /////////////////// DEVCON //////////////////////
+    /////////////////////////////////////////////////
+
+    function DevconAns(resp) {
+        if (resp.responseText === "")
+            return;
+
+        conINI = new INIFile(resp.responseText);
+
+        document.getElementById("DialNum").value = conINI.GetValue("MODEM", "DialNum_1");
+        document.getElementById("APN").value = conINI.GetValue("MODEM", "InitString_1");
+        document.getElementById("Login").value = conINI.GetValue("MODEM", "Login_1");
+        document.getElementById("Password").value = conINI.GetValue("MODEM", "Password_1");
+        if (conINI.GetValue("MODEM", "PinEn_1") == "1")
+            document.getElementById("PIN").value = conINI.GetValue("MODEM", "Pin_1");
+        document.getElementById("Ping").value = conINI.GetValue("PING", "IP");
+        document.getElementById("USSD").value = conINI.GetValue("MODEM", "OwnNumUssd");
+        if (conINI.GetValue("MB_Client", "Method") == "TCP")
+            document.getElementById("COMProto").selectedIndex = 0;
+        else
+            document.getElementById("COMProto").selectedIndex = 1;
+        document.getElementById("COMPort").value = conINI.GetValue("INFO", "Port");
+    }
+
+    /////////////////////////////////////////////////
+    /////////////////// УСТАВКИ /////////////////////
+    /////////////////////////////////////////////////
+
+    function UstAns(resp) {
+        if (resp.responseText === "")
+            return;
+
+        ustINI = new INIFile(resp.responseText);
+
+        document.getElementById("UI1").value = ustINI.GetValue("0", "Con").slice(3);
+        document.getElementById("US1").value = ustINI.GetValue("2", "Con").slice(3);
+        document.getElementById("UI2").value = ustINI.GetValue("4", "Con").slice(3);
+        document.getElementById("US2").value = ustINI.GetValue("6", "Con").slice(3);
+        document.getElementById("UI3").value = ustINI.GetValue("8", "Con").slice(3);
+        document.getElementById("US3").value = ustINI.GetValue("10", "Con").slice(3);
+        document.getElementById("UI4").value = ustINI.GetValue("12", "Con").slice(3);
+        document.getElementById("US4").value = ustINI.GetValue("14", "Con").slice(3);   
+    }
+
+    /////////////////////////////////////////////////
+    ////////////////// SAVE/LOAD ////////////////////
+    /////////////////////////////////////////////////
+	
+	function Timeout() {
+		alert("Истекло время ожидания ответа");
+	}
+
+    var conINI = null, ustINI = null;
+    function LoadSettings() {
+        var fields = new Array("DialNum", "APN", "Login", "Password", "PIN", "Ping", "USSD", "COMPort",
+                               "UI1", "US1", "UI2", "US2", "UI3", "US3", "UI4", "US4");
+
+        var i;
+        for (i = 0; i < fields.length; i++) {
+            document.getElementById(fields[i]).value = "";
+        }
+
+        SendRequest("GET", "devcon.ini", "", DevconAns, Timeout, 60000);
+        SendRequest("GET", "events.ini", "", UstAns, Timeout, 60000);       
+    }
+
+    function SaveSettings() {
+        if (conINI == null || ustINI == null) {
+            alert("Необходимо прочитать параметры перед сохранением");
+            return;
+        }
+
+        var NonEmptyFields = new Array("DialNum", "APN", "Login", "Password", "COMPort", "UI1", "US1", "UI2", "US2", "UI3", "US3", "UI4", "US4");
+        var i;
+        for (i = 0; i < NonEmptyFields.length; i++) {
+            var value = document.getElementById(NonEmptyFields[i]).value;
+            if (value == "" || value == null) {
+                alert("Заполнены не все обязательные поля");
+                return;
+            }
+        }
+
+        var NumericFields = new Array("UI1", "US1", "UI2", "US2", "UI3", "US3", "UI4", "US4", "COMPort");
+        for (i = 0; i < NumericFields.length; i++) {
+            var value = document.getElementById(NumericFields[i]).value;
+            if (!isFinite(value) || (Number(value) < 0)) {
+                alert("Некорректные данные в некоторых полях");
+                return;
+            }
+        }
+
+        var pin = document.getElementById("PIN").value;
+        if (pin != "" && pin != null) {
+            if (pin.length != 4 || !isFinite(pin) || (Number(pin) < 0)) {
+                alert("Некорректные данные в некоторых полях");
+                return;
+            }
+        }
+
+        var ip = document.getElementById("Ping").value;
+        if (ip != "" && ip != null) {
+            if (!ip.match(/^(25[0-5]|2[0-4][0-9]|[0-1][0-9]{2}|[0-9]{2}|[0-9])(\.(25[0-5]|2[0-4][0-9]|[0-1][0-9]{2}|[0-9]{2}|[0-9])){3}$/)) {
+                alert("Некорректные данные в некоторых полях");
+                return;
+            }
+        }
+
+        conINI.SetValue("MODEM", "DialNum_1", document.getElementById("DialNum").value);
+        conINI.SetValue("MODEM", "InitString_1", document.getElementById("APN").value);
+        conINI.SetValue("MODEM", "Login_1", document.getElementById("Login").value);
+        conINI.SetValue("MODEM", "Password_1", document.getElementById("Password").value);
+        if (pin != null && pin != "") {
+            conINI.SetValue("MODEM", "PinEn_1", "1");
+            conINI.SetValue("MODEM", "PIN", conINI.GetValue("MODEM", "Pin_1"));
+        }
+        else
+            conINI.SetValue("MODEM", "PinEn_1", "0");
+        conINI.SetValue("PING", "IP", document.getElementById("Ping").value);
+        conINI.SetValue("MODEM", "OwnNumUssd", document.getElementById("USSD").value);
+        if(document.getElementById("COMProto").selectedIndex == 0)
+            conINI.SetValue("MB_Client", "Method", "TCP");    
+        else
+            conINI.SetValue("MB_Client", "Method", "COM");
+        conINI.SetValue("INFO", "Port", document.getElementById("COMPort").value);
+
+        ustINI.SetValue("0", "Con", "S0<" + String(document.getElementById("UI1").value));
+        ustINI.SetValue("1", "Con", "S0}" + String(document.getElementById("UI1").value));
+        ustINI.SetValue("2", "Con", "S1>" + String(document.getElementById("US1").value));
+        ustINI.SetValue("3", "Con", "S1{" + String(document.getElementById("US1").value));
+        ustINI.SetValue("4", "Con", "S2<" + String(document.getElementById("UI2").value));
+        ustINI.SetValue("5", "Con", "S2}" + String(document.getElementById("UI2").value));
+        ustINI.SetValue("6", "Con", "S3>" + String(document.getElementById("US2").value));
+        ustINI.SetValue("7", "Con", "S3{" + String(document.getElementById("US2").value));
+
+        ustINI.SetValue("8", "Con", "S4<" + String(document.getElementById("UI3").value));
+        ustINI.SetValue("9", "Con", "S4}" + String(document.getElementById("UI3").value));
+        ustINI.SetValue("10", "Con", "S5>" + String(document.getElementById("US3").value));
+        ustINI.SetValue("11", "Con", "S5{" + String(document.getElementById("US3").value));
+        ustINI.SetValue("12", "Con", "S6<" + String(document.getElementById("UI4").value));
+        ustINI.SetValue("13", "Con", "S6}" + String(document.getElementById("UI4").value));
+        ustINI.SetValue("14", "Con", "S7>" + String(document.getElementById("US4").value));
+        ustINI.SetValue("15", "Con", "S7{" + String(document.getElementById("US4").value));
+
+        var conObj = {FileName: "DEVCON.INI", File: conINI.GetINIFile()};
+        var ustObj = {FileName: "EVENTS.INI", File: ustINI.GetINIFile()};
+
+        InitSendFiles(new Array(conObj, ustObj));
+    }
+
+    /////////////////////////////////////////////////
+    ////////////////// SEND FILE ////////////////////
+    /////////////////////////////////////////////////
+
+    function SendPortionAns(resp) {
+        if (resp.response == "error")
+            FilesStr.Status = "ERROR";
+        else
+            ProgressBar.SetPercetage(FilesStr.TotalSent / FilesStr.TotalSize);
+        SendFiles();
+    }
+
+    function SendPortionTout() {
+        FilesStr.Status = "TOUT";
+        SendFiles();  
+    }
+
+    var FilesStr, ProgressBar;
+    function SendFiles() {
+        if (FilesStr.Status == "OK") {
+            if (FilesStr.CurrentFile < FilesStr.FilesNum) {
+
+                var file = FilesStr.Files[FilesStr.CurrentFile].File;
+                var fileName = FilesStr.Files[FilesStr.CurrentFile].FileName;
+
+                var payload = String();
+                var toSend = 0;
+                while ((FilesStr.BytesSent + toSend) < file.length) {
+                    var char = encodeURIComponent(file.substr(FilesStr.BytesSent + toSend, 1));
+                    if (payload.length + char.length < FilesStr.Portion) {
+                        payload += char;
+                        toSend++;
+                    }
+                    else
+                        break;
+                }
+
+                var truncate = (FilesStr.BytesSent + toSend) == file.length ? "true" : "false";
+                var url = "FILE?file=/at45db/" + fileName + "&seek=" + FilesStr.BytesSent + "&truncate=" + truncate + "&text=" + payload;
+                SendRequest("POST", url, null, SendPortionAns, SendPortionTout, 60000);
+
+                FilesStr.BytesSent += toSend;
+                FilesStr.TotalSent += toSend;
+
+                if (FilesStr.BytesSent == file.length) {
+                    FilesStr.CurrentFile++;
+                    FilesStr.BytesSent = 0;
+                }
+            }
+            else {
+                alert("Запись параметров завершена");
+                ProgressBar.SetVisibility(false);
+                SendRequest("POST", "REINIT?null", null, null, null, null);
+                return;
+            }
+        }
+        else if (FilesStr.Status == "ERROR") {
+            alert("Ошибка при записи файлов");
+            ProgressBar.SetVisibility(false);
+            return;
+        }
+        else {
+            alert("Истекло время ожидания ответа");
+            ProgressBar.SetVisibility(false);
+            return;
+        }
+    }
+
+    function InitSendFiles(FilesToSend) {
+        FilesStr = {};
+        FilesStr.Files = FilesToSend;
+        FilesStr.FilesNum = FilesToSend.length;
+        FilesStr.CurrentFile = 0;
+        FilesStr.BytesSent = 0;
+        FilesStr.Portion = 128;
+        FilesStr.Status = "OK";
+        FilesStr.TotalSent = 0;
+        FilesStr.TotalSize = 0;
+
+        var i;
+        for (i = 0; i < FilesStr.Files.length; i++) {
+            FilesStr.TotalSize += FilesStr.Files[i].File.length;    
+        }
+
+        ProgressBar = {};
+        ProgressBar.SetVisibility = function (isVisible) {
+            if(isVisible)
+                document.getElementById("ProgressBar").style.visibility = "visible";
+            else
+                document.getElementById("ProgressBar").style.visibility = "hidden";
+        }
+        ProgressBar.SetPercetage = function (percent) {
+            document.getElementById("bar").style.width = String(percent * 100) + "%";
+        }
+
+        ProgressBar.SetPercetage(0);
+        ProgressBar.SetVisibility(true);
+        SendFiles();
+    }
+   
+    window.onload = function () {
+        LoadSettings();
+    }    
+
+</script>
+
+<table class="bar" width="80%" style="visibility:hidden" id="ProgressBar">
+  <tr>
+    <td>   
+    <div id="progress" style="display:block">
+        <p align="center" class="bartext">Пожалуйста подождите</p>
+        <div class="barb">
+	        <div id="bar" class="bars"></div>
+        </div>
+    </div>
+    </td>
+  </tr>
+</table>
+
+<div class="rbg">
+<b class="top">
+<b class="rg1"></b><b class="rg2"></b>
+<b class="rg3"></b><b class="rg4"></b></b>
+<div class="tin">
+<table align="center" cellpadding="0" cellspacing="0" class="table">
+  <tr>
+    <td class="head" >&nbsp;</td>
+    </tr>
+  <tr>
+    <td height="30" style="padding-top: 0px; padding-bottom: 0px">
+    <div class="indentmenu">
+<ul>
+<li><a href="avt.htm" title="Главная">Главная</a></li>
+</ul>
+
+</div>
+    </td>
+    </tr>
+  <tr>
+    <td class="ppp">&nbsp;</td>
+  </tr>
+  <tr>
+    <td  bgcolor="#DBD8C7" height="20px"></td>
+  </tr>
+  
+  <tr>
+    <td  class="razdel"><p class="info" title="">Настройка GPRS</p></td>
+  </tr>
+  <tr>
+    <td bgcolor="#DBD8C7"><br /><table border="0" cellspacing="0" cellpadding="0" align="center">
+      <tr>
+        <td><p class="intl">Номер дозвона:</p></td>
+        <td><input id="DialNum" type="text" class="intext" /></td>
+        </tr>
+        <tr>
+        <td><p class="intl">APN:</p></td>
+        <td><input id="APN" type="text" class="intext" /></td>
+        </tr>
+        <tr>
+        <td><p class="intl">Логин:</p></td>
+        <td><input id="Login" type="text" class="intext" /></td>
+        </tr>
+        <tr>
+        <td><p class="intl">Пароль:</p></td>
+        <td><input id="Password" type="text" class="intext" /></td>
+        </tr>
+        <tr>
+        <td><p class="intl">IP адрес пинга:</p></td>
+        <td><input id="Ping" type="text" class="intext" /></td>
+        </tr>
+    </table><br /></td>
+  </tr>  
+ 
+ <tr>
+    <td  class="razdel"><p class="info">Настройка SIM</p></td>
+  </tr>
+  
+   <tr>
+    <td bgcolor="#DBD8C7"><br /><table border="0" cellspacing="0" cellpadding="0" align="center">
+      <tr>
+        <td><p class="intl">Пин код:</p></td>
+        <td><input id="PIN" type="text" class="intext" /></td>
+        </tr>
+        <tr>
+        <td><p class="intl">USSD запрос:</p></td>
+        <td><input id="USSD" type="text" class="intext" /></td>
+        </tr>
+    </table><br />
+    </td>
+  </tr>  
+  <tr>
+    <td  class="razdel"><p class="info">ModBus клиент</p></td>
+  </tr>
+  
+   <tr>
+    <td bgcolor="#DBD8C7">
+    
+    <br /><table border="0" cellspacing="0" cellpadding="0" align="center">
+      <tr>
+        <td><p class="intl">Протокол:</p></td>
+        <td><select id="COMProto" class="delivery">
+            <option>ModBus TCP</option>
+            <option>Удаленный COM порт</option>
+            </select></td>
+        </tr>
+        <tr>
+        <td><p class="intl">Порт:</p></td>
+        <td><input id="COMPort" type="text" class="intext" /></td>
+        </tr>
+    </table><br />
+</td>
+  </tr>
+  
+<tr>
+    <td  class="razdel"><p class="info">Натройка уставок</p></td>
+  </tr>
+  
+   <tr>
+    <td bgcolor="#DBD8C7">
+    
+    <br /><table border="0" cellspacing="0" cellpadding="0" align="center">
+      <tr>
+        <td colspan="2"><p class="int">Сопротивление изоляции, кОм</p>        </td>
+        <td rowspan="6" width="30px"></td>
+        <td colspan="2"><p class="int">Сопротивление сигнальных проводников, Ом</p></td>
+        </tr>
+      <tr>
+        <td><p class="intl">Номер трубы:</p></td>
+        <td><p class="intl">Уставка:</p></td>
+        <td><p class="intl">Номер трубы:</p></td>
+        <td><p class="intl">Уставка:</p></td>
+      </tr>
+      <tr>
+        <td><p class="intl">1</p></td>
+        <td><input id="UI1" type="text" class="intext" /></td>
+        <td><p class="intl">1</p></td>
+        <td><input id="US1" type="text" class="intext" /></td>
+      </tr>
+      <tr>
+        <td><p class="intl">2</p></td>
+        <td><input id="UI2" type="text" class="intext" /></td>
+        <td><p class="intl">2</p></td>
+        <td><input id="US2" type="text" class="intext" /></td>
+      </tr>
+      <tr>
+        <td><p class="intl">3</p></td>
+        <td><input id="UI3" type="text" class="intext" /></td>
+        <td><p class="intl">3</p></td>
+        <td><input id="US3" type="text" class="intext" /></td>
+      </tr>
+      <tr>
+        <td><p class="intl">4</p></td>
+        <td><input id="UI4"type="text" class="intext" /></td>
+        <td><p class="intl">4</p></td>
+        <td><input id="US4" type="text" class="intext" /></td>
+      </tr>
+    </table><br />
+</td>
+  </tr> 
+ 
+  <tr>
+    <td bgcolor="#DBD8C7">   
+</td>
+  </tr>
+  <tr>
+    <td class="ppp">&nbsp;</td>
+  <tr>
+    <td bgcolor="#DBD8C7" align="center"><p>
+      <input type="button" value="Прочитать" class="botton" onclick="LoadSettings()" />
+      <input type="button" value="Сохранить" class="botton" onclick="SaveSettings()" /></p></td>
+      </tr>
+  </table>
+</div>
+<b class="bottom">
+<b class="rg4b"></b><b class="rg3b"></b>
+<b class="rg2b"></b><b class="rg1b"></b></b>
+</div>
+<p class="podpis">НИЧ БГУИР Центр 2011 - 2014</p>
+
+</body>
+</html>
+
+

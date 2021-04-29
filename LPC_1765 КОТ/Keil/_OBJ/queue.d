@@ -1,0 +1,17 @@
+.\_obj\queue.o: ..\FreeRTOS\Source\queue.c
+.\_obj\queue.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\_obj\queue.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\_obj\queue.o: ..\FreeRTOS\Source\include\FreeRTOS.h
+.\_obj\queue.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+.\_obj\queue.o: ..\FreeRTOS\Source\include\projdefs.h
+.\_obj\queue.o: .\Config\FreeRTOSConfig.h
+.\_obj\queue.o: ..\..\..\..\LPC17XX\LPC1700CMSIS\Core\CM3\DeviceSupport\NXP\LPC17xx\LPC17xx.h
+.\_obj\queue.o: ..\..\..\..\LPC17XX\LPC1700CMSIS\Core\CM3\CoreSupport\core_cm3.h
+.\_obj\queue.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\_obj\queue.o: ..\..\..\..\LPC17XX\LPC1700CMSIS\Core\CM3\DeviceSupport\NXP\LPC17xx\system_LPC17xx.h
+.\_obj\queue.o: ..\FreeRTOS\Source\include\portable.h
+.\_obj\queue.o: ..\FreeRTOS\Source\portable\RVDS\ARM_CM3\portmacro.h
+.\_obj\queue.o: ..\FreeRTOS\Source\include\mpu_wrappers.h
+.\_obj\queue.o: ..\FreeRTOS\Source\include\task.h
+.\_obj\queue.o: ..\FreeRTOS\Source\include\list.h
+.\_obj\queue.o: ..\FreeRTOS\Source\include\croutine.h

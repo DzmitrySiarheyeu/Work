@@ -1,0 +1,20 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html><head><title>Кот v1.90 web-интерфейс</title><meta http-equiv="Content-Type" content="text/html; charset=windows-1251"></head><body><pre>Номер прошивки: 0.00</pre><pre>Текущее время: 13.07.2015  17.31</pre><b style="font-size: x-large">Таблица измеренных сопротивлений</b><table border="1" cellpadding="0" bgcolor="#FFFF99"><tr bgcolor="#FF3399"> <th width="200">Номер трубы</th><th width="200">Сопротивление изоляции, кОм</th><th width="200">Сопротивление сигнальных проводов, Ом</th></tr><tr><td>1</td><td  bgcolor="#FFFF99">510423550381407680000000000000000000000.00</td><td  bgcolor="#FF3300">510423550381407680000000000000000000000.00</td></tr><tr><td>2</td><td  bgcolor="#FFFF99">510423550381407680000000000000000000000.00</td><td  bgcolor="#FF3300">510423550381407680000000000000000000000.00</td></tr><tr><td>3</td><td  bgcolor="#FFFF99">510423550381407680000000000000000000000.00</td><td  bgcolor="#FF3300">510423550381407680000000000000000000000.00</td></tr><tr><td>4</td><td  bgcolor="#FFFF99">510423550381407680000000000000000000000.00</td><td  bgcolor="#FF3300">510423550381407680000000000000000000000.00</td></tr></table><pre></pre><b style="font-size: x-large">Уставки</b><table border="1" cellpadding="0" bgcolor="#33CCFF"><tr bgcolor="#FFFF66"> <th width="200">Номер трубы</th><th width="200">Уставка по сопротивлению изоляции, кОм</th><th width="200">Уставка по сопротивлению сигнальных проводов, Ом</th></tr><tr><td>1</td><td>5.0</td><td>200.0</td></tr><tr><td>2</td><td>5.0</td><td>200.0</td></tr><tr><td>3</td><td>5.0</td><td>200.0</td></tr><tr><td>4</td><td>5.0</td><td>200.0</td></tr></table><pre></pre><b style="font-size: x-large">Статистика</b><table border="1" cellpadding="0" bgcolor="#99FF33"><tr bgcolor="#FFCC00"> <th width="200">ID устройства</th><th width="200">Пакетов передано</th><th width="200">Пакетов принято</th></tr><tr><td>1</td><td>29</td><td>0</td></tr></body></html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

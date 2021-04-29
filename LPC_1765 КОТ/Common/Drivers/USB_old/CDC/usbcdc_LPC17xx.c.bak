@@ -1,0 +1,255 @@
+#include "Config.h"
+#if(_USBCDC_)
+
+#include <stdlib.h>
+#include <stdio.h>
+#include <stdint.h>
+#include <string.h>
+#include "FreeRTOS.h"
+#include "semphr.h"
+#include "usbcdc_lpc17xx.h"
+#include "debug_system.h"
+
+#include "type.h"
+#include "usbhw.h"
+#include "usbcfg.h"
+#include "cdcuser.h"
+
+extern uint8_t BufferText[256];
+extern xSemaphoreHandle xDataText_Sem;
+
+static int OpenUSBCDC(DEVICE_HANDLE handle);
+static int ReadUSBCDC(DEVICE_HANDLE handle, void * dst, int count);
+static int WriteUSBCDC(DEVICE_HANDLE handle, void * dst, int count);
+static int SeekUSBCDC(DEVICE_HANDLE handle, uint16_t  offset, uint8_t origin);
+static int WriteUSBCDCText(DEVICE_HANDLE handle, void * pSrc, int count);
+static int ReadUSBCDCText(DEVICE_HANDLE handle, void * pDst, int count);
+static int SeekUSBCDCText(DEVICE_HANDLE handle, uint16_t  offset, uint8_t origin);
+static int USBCDCIOCtl(DEVICE_HANDLE handle, uint8_t code, uint8_t *pData);
+
+USBCDC_INFO_LPC17XX usbcdc_info = {.USBCDC_ID = 0, .rx_buf.in = 0, .rx_buf.out = 0, .tx_buf.in = 0, .tx_buf.out = 0, .tx_active = 1, .Sem = NULL};
+
+USBCDCData  usbcdcData = {
+    .tx_count = 0,
+    .rx_count = 0,
+    .DataPoint = 0,
+    };
+
+const DEVICE_IO usbcdc_device_io = {
+    .DeviceID = USBCDC,
+    .OpenDevice = OpenUSBCDC,
+    .ReadDevice = ReadUSBCDC,
+    .WriteDevice = WriteUSBCDC,
+    .SeekDevice = SeekUSBCDC,
+    .ReadDeviceText = WriteUSBCDCText,
+    .WriteDeviceText = ReadUSBCDCText,
+    .SeekDeviceText = SeekUSBCDCText,
+    .DeviceIOCtl = USBCDCIOCtl,
+    .DeviceName = "USBCDC",
+    };
+
+DEVICE usbcdc_device = {
+    .pDriverList = NULL,
+    .pNext = NULL,
+    .device_io = (DEVICE_IO *)&usbcdc_device_io,
+    .flDeviceOpen = 0,
+    .pDriverData = &usbcdc_info,
+    .pData = &usbcdcData
+    };
+
+static int OpenUSBCDC(DEVICE_HANDLE handle)
+{
+    USB_Init();                               // USB Initialization
+    USB_Connect(TRUE);                        // USB Connect
+
+    USBCDC_INFO_LPC17XX *pUSBCDCInfo = (USBCDC_INFO_LPC17XX *)(((DEVICE *)handle)->pDriverData);
+    vSemaphoreCreateBinary(pUSBCDCInfo->Sem);
+    if(pUSBCDCInfo->Sem == NULL)
+    {
+        PutMesToLog("USBCDC: Semaphor ERROR", 0, 1);
+        return DEVICE_ERROR;
+    }
+    return DEVICE_OK;
+}
+
+static int ReadUSBCDC(DEVICE_HANDLE handle, void * dst, int count)
+{
+    USBCDC_INFO_LPC17XX *pUSBCDCInfo = (USBCDC_INFO_LPC17XX *)(((DEVICE *)handle)->pDriverData);
+    if(xSemaphoreTake( pUSBCDCInfo->Sem, 1000 ) == pdTRUE)
+    {
+        USBCDC_BUF *p = &(pUSBCDCInfo->rx_buf);
+        USBCDCData *pData = (USBCDCData *)(((DEVICE *)handle)->pData);
+        int i;
+
+        for(i = 0; i < count; i++)
+        {
+            if (p->in == p->out)
+            {
+              xSemaphoreGive(pUSBCDCInfo->Sem);
+              return i;
+            }
+            ((uint8_t *)dst)[i] = p->buf[p->out++];
+            if(p->out == 255) p->out = 0;
+            pData->rx_count++;
+        }
+        xSemaphoreGive(pUSBCDCInfo->Sem);
+        return count;
+    }
+    return -1;
+}
+
+static int WriteUSBCDC(DEVICE_HANDLE handle, void * dst, int count)
+{
+    USBCDC_INFO_LPC17XX *pUSBCDCInfo = (USBCDC_INFO_LPC17XX *)(((DEVICE *)handle)->pDriverData);
+    USBCDC_BUF *p = &(pUSBCDCInfo->tx_buf);
+    USBCDCData *pData = (USBCDCData *)(((DEVICE *)handle)->pData);
+    uint8_t buff_full_flag = 0;
+
+    if(xSemaphoreTake( pUSBCDCInfo->Sem, 1000 ) == pdTRUE)
+    {
+        // Максимальный размер, который мы можем передать без занесения в буфер это USB_CDC_BUFSIZE
+        if(count > USB_CDC_BUFSIZE)
+        {
+            // Еслт в буфере нет места
+            if ((p->in + 1) == p->out)
+            {
+                DEBUG_PUTS("USBCDC: Transmit buffer is full (64 bytes transmitted)");
+                // Устанавливаем флаг, но не выходим, т.к. мы можем передать USB_CDC_BUFSIZE байт в любом случае
+                buff_full_flag = 1;
+            }
+
+            
+            int i;
+            // Все, что больше USB_CDC_BUFSIZE байт надо занести в буфер
+            for(i = USB_CDC_BUFSIZE; i < count; i++)
+            {
+                p->buf[p->in++] = ((uint8_t *)dst)[i];
+                if(p->in >= 255) p->in = 0;
+                pData->tx_count++;
+            }
+
+            // Отсылаем USB_CDC_BUFSIZE байт
+            USB_WriteEP(CDC_DEP_IN, (unsigned char *)dst, USB_CDC_BUFSIZE);
+            pData->tx_count += USB_CDC_BUFSIZE;
+
+            if(buff_full_flag == 1)
+            {
+                xSemaphoreGive(pUSBCDCInfo->Sem);
+                return - 1;
+            }
+        }
+        else
+        {
+            USB_WriteEP(CDC_DEP_IN, (unsigned char *)dst, count);
+            pData->tx_count += count;
+        }
+
+        xSemaphoreGive(pUSBCDCInfo->Sem);
+        return count;
+    }
+  
+    return -1;
+}
+
+static int SeekUSBCDC(DEVICE_HANDLE handle, uint16_t  offset, uint8_t origin)
+{
+    return -1;
+}
+
+static int USBCDCIOCtl(DEVICE_HANDLE handle, uint8_t code, uint8_t *pData)
+{
+    return -1;
+}
+
+static int WriteUSBCDCText(DEVICE_HANDLE handle, void * pSrc, int count)
+{
+    return -1;
+}
+
+static int ReadUSBCDCText(DEVICE_HANDLE handle, void * pDst, int count)
+{
+    USBCDC_INFO_LPC17XX *pUSBCDCInfo = (USBCDC_INFO_LPC17XX *)(((DEVICE *)handle)->pDriverData);
+    if(xSemaphoreTake( pUSBCDCInfo->Sem, 1000 ) == pdTRUE)
+    {
+        USBCDCData *pData = (USBCDCData *)(((DEVICE *)handle)->pData);
+        if(count >= 0)
+        {
+            memset(pDst, 0, count);
+            if((pData->DataPoint + count) > MAX_USBCDC_DATA_OFFSET)
+            {
+                count = MAX_USBCDC_DATA_OFFSET - pData->DataPoint;
+            }
+            if(xSemaphoreTake(xDataText_Sem, 1000 ) == pdTRUE)
+            {
+                sprintf(&BufferText[0], "%10lu", pData->rx_count);
+                strcpy(&BufferText[10], " rx;\n");
+                sprintf(&BufferText[15], "%10lu", pData->tx_count);
+                strcpy(&BufferText[25], " tx;\n");
+                    
+                memcpy(pDst, (uint8_t *)(((uint8_t *)BufferText) + pData->DataPoint), count);
+
+                xSemaphoreGive(xDataText_Sem);
+                xSemaphoreGive(pUSBCDCInfo->Sem);
+                pData->DataPoint += count;
+                return count;
+            }
+        }
+        xSemaphoreGive(pUSBCDCInfo->Sem);
+    }
+    return -1;
+}
+
+static int SeekUSBCDCText(DEVICE_HANDLE handle, uint16_t  offset, uint8_t origin)
+{
+    USBCDC_INFO_LPC17XX *pUSBCDCInfo = (USBCDC_INFO_LPC17XX *)(((DEVICE *)handle)->pDriverData);
+    if(xSemaphoreTake( pUSBCDCInfo->Sem, 1000 ) == pdTRUE)
+    {
+        USBCDCData *pData = (USBCDCData *)(((DEVICE *)handle)->pData);
+        switch(origin)
+        {
+            case 0:
+                if(offset < MAX_USBCDC_DATA_OFFSET)
+                {
+                    pData->DataPoint = offset;
+                }
+                else
+                {
+                    pData->DataPoint = 0;
+                    return -1;
+                }
+                break;
+            case 1:
+                if((pData->DataPoint + offset) < MAX_USBCDC_DATA_OFFSET)
+                {
+                    pData->DataPoint = pData->DataPoint + offset;
+                }
+                else
+                {
+                    pData->DataPoint = 0;
+                    return -1;
+                } 
+                break;
+            case 2:
+                if(offset < MAX_USBCDC_DATA_OFFSET)
+                {
+                    pData->DataPoint = MAX_USBCDC_DATA_OFFSET - offset;
+                }
+                else
+                {
+                    pData->DataPoint = 0;
+                    return -1;
+                } 
+                break;
+            default:
+                xSemaphoreGive(pUSBCDCInfo->Sem);
+                pData->DataPoint = 0;
+                return -1;
+                break;             
+        }
+        xSemaphoreGive(pUSBCDCInfo->Sem);
+        return pData->DataPoint;
+    }
+    return -1;
+}
+
+#endif

@@ -1,0 +1,337 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<link href="style.css" type="text/css" rel="stylesheet">
+<script language="javascript" type="text/javascript" src="net.js"></script>
+</head>
+
+<body>
+
+<script language="javascript" type="text/javascript">
+
+    /////////////////////////////////////////////////
+    ///////////////////// INFO //////////////////////
+    /////////////////////////////////////////////////
+
+    function WorkInfoAns(Response) {
+        var doc = Response.responseXML;
+
+        if (doc == null) {
+            alert("Ошибка ответа сервера");
+            return;
+        }
+
+        ReqCtl.failCnt = 0;
+        ParseXML(Response);
+
+        var RTable = document.getElementById("RTable");
+        var UTable = document.getElementById("UTable");
+
+        var i;
+        for (i = 1; i < RTable.children[0].children.length; i++) {
+            var RI, RS, UI, US;
+
+            RI = RTable.children[0].children[i].children[1].innerHTML;
+            RS = RTable.children[0].children[i].children[2].innerHTML;
+
+            UI = UTable.children[0].children[i].children[1].innerHTML;
+            US = UTable.children[0].children[i].children[2].innerHTML;
+
+            if (RI != "---" && UI != "---") {
+                if (Number(RI) < Number(UI))
+                    RTable.children[0].children[i].children[1].setAttribute("style", "color:Red;font-weight:bold");
+                else
+                    RTable.children[0].children[i].children[1].setAttribute("style", "color:Black;font-weight:normal");
+            }
+
+            if (RS != "---" && US != "---") {
+                if (Number(RS) > Number(US))
+                    RTable.children[0].children[i].children[2].setAttribute("style", "color:Red;font-weight:bold");
+                else
+                    RTable.children[0].children[i].children[2].setAttribute("style", "color:Black;font-weight:normal");
+            }
+        }    
+    }
+
+    var ReqCtl = {};
+    function ParseXML(Response) {
+		if (Response.responseXML == null) {
+            alert("Ошибка ответа сервера");
+            return;
+        }
+        var doc = Response.responseXML;
+
+        try {
+            var info = doc.documentElement.firstChild;
+			var i = 0;
+			for(; i < info.childNodes.length; i++) {
+				var tag = info.childNodes[i].tagName;
+				var text = info.childNodes[i].text == undefined ? info.childNodes[i].textContent : info.childNodes[i].text;
+
+				if(text == "510423550381407680000000000000000000000.00")
+						text = "NaN";
+
+				document.getElementById(tag).innerHTML = text;
+			}
+        }
+        catch (e) {
+            alert("Ошибка в ответе сервера");
+        }
+    }
+
+    function TimeoutXML() {
+        if (++ReqCtl.failCnt > 3) {
+            ReqCtl.reqOn = false;
+            alert("Истекло время ожидания ответа");
+        }
+    }
+
+    function SendInfoRequest()
+    {
+        if (ReqCtl.reqOn) {
+            GetXMLFile("PIPELINES?", WorkInfoAns, TimeoutXML, 30000);
+            setTimeout(SendInfoRequest, 35000);
+        }
+    }
+
+    /////////////////////////////////////////////////
+    ///////////////////// LOGIN /////////////////////
+    /////////////////////////////////////////////////
+
+	function LoginTimeout() {
+		alert("Истекло время ожидания ответа");
+	}
+	
+    function LoginAns(Response) {
+        if (Response.responseText == "error")
+            alert("Неверный логин или пароль");
+        else
+            eval(Response.responseText);
+    }
+
+    function LoginReq() {
+        var password = document.getElementById("Password").value;
+        var login = document.getElementById("Login").value;
+
+        var url = "LOGIN?" + "user=" + login + "&pass=" + password;
+        SendRequest("POST", url, null, LoginAns, LoginTimeout, 60000);
+    }
+
+    window.onload = function () {
+        ReqCtl.reqOn = true;
+        ReqCtl.failCnt = 0;
+		GetXMLFileSynchro("INFO?info=SWVers:SWVers;BLVers:BLVers;DevID:DevID;Date:Date;Time:Time;SerNum:SerNum;SIMNum:SIMNum;OpName:OpName", ParseXML, null, null);
+        GetXMLFileSynchro("PIPELINES?", WorkInfoAns, null, null);
+		var img = document.createElement( 'img' );
+		img.setAttribute( 'src', "./map.gif" );
+		var map = document.getElementById("MapID");
+		var parent = map.parentNode;
+		parent.replaceChild(img, map);
+		var bg = document.getElementById("headID");;
+		bg.setAttribute("background", "head.gif");
+    }
+
+</script>
+
+<div class="rbg">
+<b class="top">
+<b class="rg1"></b><b class="rg2"></b>
+<b class="rg3"></b><b class="rg4"></b></b>
+<div class="tin">
+<table align="center" cellpadding="0" cellspacing="0" class="table">
+  <tr>
+    <td class="head" id="headID">&nbsp;</td>
+    </tr>
+  <tr>
+    <td height="30" style="padding-top: 0px; padding-bottom: 0px">
+    <div class="indentmenu">
+
+<form onsubmit="LoginReq();return false;">
+    <ul>
+    <li>
+        <p class="intll">Логин: <input id="Login" type="text" class="intext" />   Пароль: 
+        <input id="Password" type="password" class="intext" />
+        <input type="submit" value="Перейти к настройкам" />
+        </p>
+    </li>
+    </ul>
+</form>
+</div>
+    </td>
+    </tr>
+  <tr>
+    <td class="ppp">&nbsp;</td>
+  </tr>
+  <tr>
+    <td  bgcolor="#DBD8C7" height="20px" ></td>
+  </tr>
+  
+  <tr>
+    <td  class="razdel"><p class="info" title="">Общая информация</p></td>
+  </tr>  
+ <tr>
+    <td bgcolor="#DBD8C7"><table border="0" cellspacing="10" cellpadding="0" align="center">
+  <tr>
+    <td width="200"><p class="intl">Версия WEB-интерфейса:</p></td>
+    <td width="300"><p class="intr"><span>2.0.3.0</span></p></td>
+	<td height="300" rowspan = "8" > <span id="MapID">---</span></td>
+  </tr>
+  <tr>
+    <td width="200"><p class="intl">Версия прошивки:</p></td>
+    <td width="300"><p class="intr"><span id="SWVers">---</span></p></td>
+  </tr>
+  <tr>
+    <td><p class="intl">Версия загрузчика:</p></td>
+    <td><p class="intr"><span id="BLVers">---</span></p></td>
+  </tr>
+  <tr>
+    <td><p class="intl">Дата и время:</p></td>
+    <td><p class="intr"><span id="Date">---</span><span>  </span><span id="Time">---</span></p></td>
+  </tr>
+  <tr>
+    <td><p class="intl">Серийный номер:</p></td>
+    <td><p class="intr"><span id="SerNum">---</span></p></td>
+  </tr><tr>
+    <td><p class="intl">Идентификационный номер:</p></td>
+    <td><p class="intr"><span id="DevID">---</span></p></td>
+  </tr>
+  <tr>
+    <td><p class="intl">Номер СИМ карты:</p></td>
+    <td><p class="intr"><span id="SIMNum">---</span></p></td>
+  </tr>
+  <tr>
+    <td><p class="intl">Оператор:</p></td>
+    <td><p class="intr"><span id="OpName">---</span></p></td>
+  </tr>
+  
+  </table>
+      </td></tr>
+ <tr>
+    <td  class="razdel"><p class="info" title="">Текущее сопротивление</p></td>
+ </tr> 
+
+<tr>
+    <td bgcolor="#DBD8C7">
+<br>
+<table border="0" cellspacing="0" cellpadding="0" align="center" id="RTable">
+  <tr bgcolor="#C4C5B7" height="30">
+    <td><p class="tp">Номер трубы</p></td>
+    <td><p class="tp">Сопротивление изоляции, кОм</p></td>
+    <td><p class="tp">Сопротивление сигнальных проводников, Ом</p></td>
+  </tr>
+  <tr>
+    <td><p class="tpl">1</p></td>
+    <td id="RI1" align=right>---</td>
+    <td id="RS1" align=right>---</td>
+  </tr>
+  <tr>
+    <td><p class="tpl">2</p></td>
+    <td id="RI2" align=right>---</td>
+    <td id="RS2" align=right>---</td>
+  </tr>
+  <tr>
+    <td><p class="tpl">3</p></td>
+    <td id="RI3" align=right>---</td>
+    <td id="RS3" align=right>---</td>
+  </tr>
+  <tr>
+    <td><p class="tpl">4</p></td>
+    <td id="RI4" align=right>---</td>
+    <td id="RS4" align=right>---</td>
+  </tr>
+</table>
+<br>   
+    </td>
+  </tr>
+<tr>
+    <td  class="razdel"><p class="info" title="">Уставки</p></td>
+ </tr> 
+
+<tr>
+    <td bgcolor="#DBD8C7">
+<br>
+<table border="0" cellspacing="0" cellpadding="0" align="center" id="UTable">
+  <tr bgcolor="#C4C5B7" height="30">
+    <td><p class="tp">Номер трубы</p></td>
+    <td><p class="tp">Сопротивление изоляции, кОм</p></td>
+    <td><p class="tp">Сопротивление сигнальных проводников, Ом</p></td>
+  </tr>
+  <tr>
+    <td><p class="tpl">1</p></td>
+    <td id="UI1" align=right>---</td>
+    <td id="US1" align=right>---</td>
+  </tr>
+  <tr>
+    <td><p class="tpl">2</p></td>
+    <td id="UI2" align=right>---</td>
+    <td id="US2" align=right>---</td>
+  </tr>
+  <tr>
+    <td><p class="tpl">3</p></td>
+    <td id="UI3" align=right>---</td>
+    <td id="US3" align=right>---</td>
+  </tr>
+  <tr>
+    <td><p class="tpl">4</p></td>
+    <td id="UI4" align=right>---</td>
+    <td id="US4" align=right>---</td>
+  </tr>
+</table>
+   
+<br>
+    </td>
+  </tr><tr>
+    <td  class="razdel"><p class="info" title="">Статистика обмена данными</p></td>
+ </tr> 
+
+<tr>
+    <td bgcolor="#DBD8C7">
+    <br>
+<table border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr bgcolor="#C4C5B7" height="30">
+    <td><p class="tp">ID платы</p></td>
+    <td><p class="tp">Пакетов передано</p></td>
+    <td><p class="tp">Пакетов принято</p></td>
+  </tr>
+  <tr>
+    <td><p class="tpl" id="ID1">---</p></td>
+    <td id="TX1" align=right>---</td>
+    <td id="RX1" align=right>---</td>
+  </tr>
+  <tr>
+    <td><p class="tpl" id="ID2">---</p></td>
+    <td id="TX2" align=right>---</td>
+    <td id="RX2" align=right>---</td>
+  </tr>
+  <tr>
+    <td><p class="tpl" id="ID3">---</p></td>
+    <td id="TX3" align=right>---</td>
+    <td id="RX3" align=right>---</td>
+  </tr>
+  <tr>
+    <td><p class="tpl" id="ID4">---</p></td>
+    <td id="TX4" align=right>---</td>
+    <td id="RX4" align=right>---</td>
+  </tr>
+</table>
+<br>    
+    </td>
+  </tr>
+  <tr>
+    <td class="ppp">&nbsp;</td>
+  <tr>
+    <td bgcolor="#DBD8C7" align="center"><p>&nbsp;</p></td>
+      </tr>
+  </table>
+</div>
+<b class="bottom">
+<b class="rg4b"></b><b class="rg3b"></b>
+<b class="rg2b"></b><b class="rg1b"></b></b>
+</div>
+<p class="podpis">НИЧ БГУИР Центра 11.2 2011 - 2014</p>
+
+</body>
+</html>
+
+

@@ -1,0 +1,29 @@
+.\_obj\lcd 133x65_uc1601s.o: ..\Common\Display\LCD 133X65_UC1601S.c
+.\_obj\lcd 133x65_uc1601s.o: .\Config\config.h
+.\_obj\lcd 133x65_uc1601s.o: ..\FreeRTOS\Source\include\FreeRTOS.h
+.\_obj\lcd 133x65_uc1601s.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+.\_obj\lcd 133x65_uc1601s.o: ..\FreeRTOS\Source\include\projdefs.h
+.\_obj\lcd 133x65_uc1601s.o: .\Config\FreeRTOSConfig.h
+.\_obj\lcd 133x65_uc1601s.o: ..\..\..\..\LPC17XX\LPC1700CMSIS\Core\CM3\DeviceSupport\NXP\LPC17xx\LPC17xx.h
+.\_obj\lcd 133x65_uc1601s.o: ..\..\..\..\LPC17XX\LPC1700CMSIS\Core\CM3\CoreSupport\core_cm3.h
+.\_obj\lcd 133x65_uc1601s.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\_obj\lcd 133x65_uc1601s.o: ..\..\..\..\LPC17XX\LPC1700CMSIS\Core\CM3\DeviceSupport\NXP\LPC17xx\system_LPC17xx.h
+.\_obj\lcd 133x65_uc1601s.o: ..\FreeRTOS\Source\include\portable.h
+.\_obj\lcd 133x65_uc1601s.o: ..\FreeRTOS\Source\portable\RVDS\ARM_CM3\portmacro.h
+.\_obj\lcd 133x65_uc1601s.o: ..\FreeRTOS\Source\include\mpu_wrappers.h
+.\_obj\lcd 133x65_uc1601s.o: ..\FreeRTOS\Source\include\semphr.h
+.\_obj\lcd 133x65_uc1601s.o: ..\FreeRTOS\Source\include\queue.h
+.\_obj\lcd 133x65_uc1601s.o: ..\FreeRTOS\Source\include\task.h
+.\_obj\lcd 133x65_uc1601s.o: ..\FreeRTOS\Source\include\list.h
+.\_obj\lcd 133x65_uc1601s.o: ..\..\..\..\LPC17XX\LPC1700CMSIS\Drivers\include\lpc17xx_gpio.h
+.\_obj\lcd 133x65_uc1601s.o: ..\..\..\..\LPC17XX\LPC1700CMSIS\Drivers\include\lpc_types.h
+.\_obj\lcd 133x65_uc1601s.o: ..\..\..\..\LPC17XX\LPC1700CMSIS\Drivers\include\lpc17xx_pinsel.h
+.\_obj\lcd 133x65_uc1601s.o: ..\Common\debug_system\debug_system.h
+.\_obj\lcd 133x65_uc1601s.o: C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h
+.\_obj\lcd 133x65_uc1601s.o: C:\Keil\ARM\ARMCC\bin\..\include\math.h
+.\_obj\lcd 133x65_uc1601s.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\_obj\lcd 133x65_uc1601s.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\_obj\lcd 133x65_uc1601s.o: ..\Common\Drivers\I2C\i2c_lpc17xx.h
+.\_obj\lcd 133x65_uc1601s.o: ..\Common\Drivers\DriversCore.h
+.\_obj\lcd 133x65_uc1601s.o: ..\Common\Display\LCD 133X65_UC1601S.h
+.\_obj\lcd 133x65_uc1601s.o: ..\Common\Display\Font.h

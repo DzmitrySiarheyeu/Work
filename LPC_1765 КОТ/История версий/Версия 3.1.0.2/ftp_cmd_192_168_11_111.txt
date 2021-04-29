@@ -1,0 +1,7 @@
+open 10.15.118.19
+ets
+testtest
+cd at45db
+send PIPE.fm PIPE.fm
+bye
+
