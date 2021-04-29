@@ -1,0 +1,63 @@
+
+T15C0 000:518 SEGGER J-Link V4.36l Log File (0000ms, 0360ms total)
+T15C0 000:518 DLL Compiled: Dec  2 2011 18:52:36 (0000ms, 0360ms total)
+T15C0 000:518 Logging started @ 2013-08-22 17:26 (0000ms, 0360ms total)
+T15C0 000:518 JLINK_SetWarnOutHandler(...) (0000ms, 0360ms total)
+T15C0 000:518 JLINK_OpenEx(...)
+Firmware: J-Link ARM V8 compiled Jul 17 2013 11:24:15
+Hardware: V8.00
+S/N: 17935099
+Feature(s): RDI,FlashDL,FlashBP,JFlash  returns O.K. (0134ms, 0360ms total)
+T15C0 000:652 JLINK_SetErrorOutHandler(...) (0000ms, 0494ms total)
+T15C0 000:653 JLINK_ExecCommand("Device = LPC1114/301", ...)  returns 0x00 (0000ms, 0494ms total)
+T15C0 000:654 JLINK_ExecCommand("ProjectFile = "D:\vss_work\Сумматор light\ПО нижнего уровня\Сумматор NXP\Keil\JLinkSettings.ini"", ...)  returns 0x00 (0002ms, 0494ms total)
+T15C0 000:657 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x00 (0001ms, 0497ms total)
+T15C0 000:659 JLINK_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0005ms, 0498ms total)
+T15C0 000:664 JLINK_SetSpeed(100) (0002ms, 0503ms total)
+T15C0 000:666 JLINK_GetHardwareVersion()  returns 0x13880 (0000ms, 0505ms total)
+T15C0 000:666 JLINK_GetDLLVersion()  returns 43612 (0000ms, 0505ms total)
+T15C0 000:666 JLINK_GetFirmwareString(...) (0000ms, 0505ms total)
+T15C0 000:666 JLINK_GetDLLVersion()  returns 43612 (0000ms, 0505ms total)
+T15C0 000:666 JLINK_GetCompileDateTime() (0000ms, 0505ms total)
+T15C0 000:666 JLINK_GetFirmwareString(...) (0000ms, 0505ms total)
+T15C0 000:666 JLINK_GetHardwareVersion()  returns 0x13880 (0000ms, 0505ms total)
+T15C0 000:666 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 0505ms total)
+T15C0 000:666 JLINK_Reset() >0x108 TIF>Found SWD-DP with ID 0x0BB11477 >0x33 TIF> >0x33 TIF> >0x35 TIF> >0x33 TIF> >0x35 TIF> >0x33 TIF> >0x33 TIF> >0x35 TIF> >0x33 TIF> >0x33 TIF> >0x35 TIF> >0x33 TIF> >0x33 TIF> >0x35 TIF> >0x33 TIF> >0x33 TIF> >0x35 TIF> >0x35 TIF> >0x35 TIF> >0x35 TIF> >0x35 TIF> >0x33 TIF> >0x33 TIF> >0x35 TIF> >0x33 TIF> >0x33 TIF> >0x33 TIF> >0x35 TIF> >0x33 TIF> >0x33 TIF> >0x35 TIF> >0x33 TIF> >0x33 TIF>  FPUnit: 4 code (BP) slots and 0 literal slots >0x35 TIF> >0x33 TIF>
+ >0x33 TIF> >0x35 TIF> >0x33 TIF> >0x33 TIF> >0x35 TIF> >0x33 TIF> >0x33 TIF> >0x35 TIF> >0x33 TIF> >0x33 TIF>Found Cortex-M0 r0p0, Little endian. -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) >0x35 TIF> -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE0001020) -- CPU_WriteMem(4 bytes @ 0xE0001024) -- CPU_WriteMem(4 bytes @ 0xE0001028) -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE0001028) -- CPU_ReadMem(4 bytes @ 0x00000004) -- CPU_ReadMem(4 bytes @ 0xE0002000) -- CPU_ReadMem(4 bytes @ 0xE0002008)
+ -- CPU_ReadMem(4 bytes @ 0xE000200C) -- CPU_ReadMem(4 bytes @ 0xE0002010) -- CPU_ReadMem(4 bytes @ 0xE0002014) -- CPU_WriteMem(4 bytes @ 0xE0002000) -- CPU_WriteMem(4 bytes @ 0xE0002008) -- CPU_WriteMem(4 bytes @ 0xE000200C) -- CPU_WriteMem(4 bytes @ 0xE0002010) -- CPU_WriteMem(4 bytes @ 0xE0002014) -- CPU_WriteMem(4 bytes @ 0xE0002000) -- CPU_WriteMem(4 bytes @ 0xE0002008) -- CPU_WriteMem(4 bytes @ 0xE000200C) -- CPU_WriteMem(4 bytes @ 0xE0002010) -- CPU_WriteMem(4 bytes @ 0xE0002014)
+ (0546ms, 0505ms total)
+T15C0 001:213 JLINK_GetId() >0x33 TIF>  returns 0x0BB11477 (0002ms, 1051ms total)
+T15C0 001:221 JLINK_GetFirmwareString(...) (0000ms, 1053ms total)
+T15C0 003:349 JLINK_Close() (0056ms, 1053ms total)
+T15C0 003:405 JLINK_SelectUSB(Port = 0)  returns 0x00 (0000ms, 1109ms total)
+T15C0 003:405 JLINK_EnableLog(...) (0000ms, 1109ms total)
+T15C0 003:405 JLINK_SetWarnOutHandler(...) (0001ms, 1109ms total)
+T15C0 003:406 JLINK_OpenEx(...)
+Firmware: J-Link ARM V8 compiled Jul 17 2013 11:24:15
+Hardware: V8.00
+S/N: 17935099
+Feature(s): RDI,FlashDL,FlashBP,JFlash  returns O.K. (0153ms, 1110ms total)
+T15C0 003:559 JLINK_SetErrorOutHandler(...) (0000ms, 1263ms total)
+T15C0 003:560 JLINK_ExecCommand("Device = LPC1114/301", ...)  returns 0x00 (0000ms, 1263ms total)
+T15C0 003:562 JLINK_ExecCommand("ProjectFile = "D:\vss_work\Сумматор light\ПО нижнего уровня\Сумматор NXP\Keil\JLinkSettings.ini"", ...)  returns 0x00 (0001ms, 1263ms total)
+T15C0 003:563 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x00 (0000ms, 1264ms total)
+T15C0 003:566 JLINK_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0005ms, 1264ms total)
+T15C0 003:571 JLINK_SetSpeed(1000) (0001ms, 1269ms total)
+T15C0 003:572 JLINK_GetHardwareVersion()  returns 0x13880 (0000ms, 1270ms total)
+T15C0 003:572 JLINK_GetDLLVersion()  returns 43612 (0000ms, 1270ms total)
+T15C0 003:572 JLINK_GetFirmwareString(...) (0000ms, 1270ms total)
+T15C0 003:572 JLINK_GetDLLVersion()  returns 43612 (0000ms, 1270ms total)
+T15C0 003:572 JLINK_GetCompileDateTime() (0000ms, 1270ms total)
+T15C0 003:572 JLINK_GetFirmwareString(...) (0000ms, 1270ms total)
+T15C0 003:572 JLINK_GetHardwareVersion()  returns 0x13880 (0000ms, 1270ms total)
+T15C0 003:573 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 1270ms total)
+T15C0 003:573 JLINK_Reset() >0x108 TIF> >0x108 TIF> >0x108 TIF>RESET (pin 15) high, but should be low. Please check target hardware. >0x108 TIF> (0216ms, 1270ms total)
+T15C0 003:789 JLINK_GetId()RESET (pin 15) high, but should be low. Please check target hardware.
+  ***** Error: Supply voltage too low (1 Volt is required, Measured: 0.5 Volt).
+Please check target power.  returns 0x00000000 (0207ms, 1486ms total)
+T15C0 003:996 JLINK_GetId()  returns 0x00000000 (0002ms, 1693ms total)
+T15C0 004:000 JLINK_GetFirmwareString(...) (0001ms, 1695ms total)
+T15C0 1183:426 JLINK_Close() (0039ms, 1696ms total)
+T15C0 1183:465 JLINK_Close() (0000ms, 1735ms total)
+T15C0 1183:465 JLINK_Close() (0000ms, 1735ms total)
