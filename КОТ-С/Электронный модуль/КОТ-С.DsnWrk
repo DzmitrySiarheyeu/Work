@@ -1,0 +1,8 @@
+[ProjectGroup]
+Version=1.0
+[Project1]
+ProjectPath=Модуль соединений.PrjPcb
+[Project2]
+ProjectPath=Модуль канала измерения.PrjPcb
+[Project3]
+ProjectPath=..\..\Калибратор v2.0\Электронный модуль\Калибратор v2.0.PrjPcb

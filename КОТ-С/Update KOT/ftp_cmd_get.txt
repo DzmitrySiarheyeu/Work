@@ -1,0 +1,13 @@
+open 192.168.11.111
+ets
+testtest
+cd at45db
+prompt
+get AUTOG.INI temp\AUTOG.INI
+get SENSORS.INI temp\SENSORS.INI
+get DEVCON.INI temp\DEVCON.INI
+get EVENTS.INI temp\EVENTS.INI
+get CAMERA.INI temp\CAMERA.INI
+get MES.INI temp\MES.INI
+bye
+

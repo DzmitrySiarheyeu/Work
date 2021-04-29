@@ -1,0 +1,310 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<link href="style.css" type="text/css" rel="stylesheet">
+<script language="javascript" type="text/javascript" src="net.js"></script>
+</head>
+
+<body>
+
+<script language="javascript" type="text/javascript">
+
+    /////////////////////////////////////////////////
+    ///////////////////// INFO //////////////////////
+    /////////////////////////////////////////////////
+	
+	function channel_set(channel, td_name)
+	{
+		var mask_channel = [ 0x40, 0x80, 0x01, 0x02, 0x04, 0x08, 0x10, 0x20 ];
+		if(channel)
+		{
+			var text = channel.text == undefined ? channel.textContent : channel.text;
+			N = Number(text);
+			var element, i;
+			for(i = 0; i < 8; i++)
+			{
+				element = document.getElementById(td_name + (i + 1).toString());
+				if(N & mask_channel[i])
+				{
+					element.innerHTML = " ";
+					if(i < 5)
+						element.setAttribute("bgColor", "Yellow");
+					else if(i < 7)
+						element.setAttribute("bgColor", "Red");
+					else
+						element.setAttribute("bgColor", "Green");
+				}
+				else
+				{
+					element.innerHTML = " ";
+					if(i != 7)
+						element.setAttribute("bgColor", "");
+					else
+						element.setAttribute("bgColor", "Red");
+				}
+			}	
+		}    
+	}
+
+    function WorkInfoAns(Response) {
+        var doc = Response.responseXML;
+
+        if (doc == null) {
+            alert("Ошибка ответа сервера");
+            return;
+        }
+
+        ReqCtl.failCnt = 0;
+		var channel = doc.documentElement.getElementsByTagName("O1")[0];
+		channel_set(channel, "O1_");
+		channel = doc.documentElement.getElementsByTagName("O2")[0];
+		channel_set(channel, "O2_");
+		channel = doc.documentElement.getElementsByTagName("O3")[0];
+		channel_set(channel, "O3_");
+		channel = doc.documentElement.getElementsByTagName("O4")[0];
+		channel_set(channel, "O4_");
+		SendInfoRequest();
+    }
+	
+	 
+    var ReqCtl = {};
+    function ParseXML(Response) {
+		if (Response.responseXML == null) {
+            alert("Ошибка ответа сервера");
+            return;
+        }
+        var doc = Response.responseXML;
+
+        try {
+            var info = doc.documentElement.firstChild;
+			var i = 0;
+			for(; i < info.childNodes.length; i++) {
+				var tag = info.childNodes[i].tagName;
+				var text = info.childNodes[i].text == undefined ? info.childNodes[i].textContent : info.childNodes[i].text;
+
+				if(text == "510423550381407680000000000000000000000.00")
+						text = "NaN";
+
+				document.getElementById(tag).innerHTML = text;
+			}
+        }
+        catch (e) {
+            alert("Ошибка в ответе сервера");
+        }
+    }
+
+    function TimeoutXML() {
+        if (++ReqCtl.failCnt > 3) {
+            ReqCtl.reqOn = false;
+            alert("Истекло время ожидания ответа");
+        }
+    }
+
+    function SendInfoRequest()
+    {
+        if (ReqCtl.reqOn) {
+            GetXMLFile("SENSOR?sensors=O1;O2;O3;O4", WorkInfoAns, TimeoutXML, 30000);
+            //setTimeout(SendInfoRequest, 35000);
+        }
+    }
+
+    /////////////////////////////////////////////////
+    ///////////////////// LOGIN /////////////////////
+    /////////////////////////////////////////////////
+
+	function LoginTimeout() {
+		alert("Истекло время ожидания ответа");
+	}
+	
+    function LoginAns(Response) {
+        if (Response.responseText == "error")
+            alert("Неверный логин или пароль");
+        else
+            eval(Response.responseText);
+    }
+
+    function LoginReq() {
+        var password = document.getElementById("Password").value;
+        var login = document.getElementById("Login").value;
+
+        var url = "LOGIN?" + "user=" + login + "&pass=" + password;
+		SendRequest("POST", url, null, LoginAns, LoginTimeout, 60000);
+    }
+
+    window.onload = function () {
+        ReqCtl.reqOn = true;
+        ReqCtl.failCnt = 0;
+
+        //SendInfoRequest();
+        //GetXMLFile("INFO?info=SWVers:SWVers;BLVers:BLVers;DevID:DevID;Date:Date;Time:Time;IMEI:IMEI", ParseXML, null, null);
+		GetXMLFileSynchro("INFO?info=SWVers:SWVers;BLVers:BLVers;DevID:DevID;Date:Date;Time:Time;IMEI:IMEI", ParseXML, null, null);
+        GetXMLFileSynchro("SENSOR?sensors=O1;O2;O3;O4", WorkInfoAns, null, null);
+		var img = document.createElement( 'img' );
+		img.setAttribute( 'src', "./map.gif" );
+		var map = document.getElementById("MapID");
+		var parent = map.parentNode;
+		parent.replaceChild(img, map);
+		var bg = document.getElementById("headID");;
+		bg.setAttribute("background", "head.gif");
+    }
+
+</script>
+
+<div class="rbg">
+<b class="top">
+<b class="rg1"></b><b class="rg2"></b>
+<b class="rg3"></b><b class="rg4"></b></b>
+<div class="tin">
+<table align="center" cellpadding="0" cellspacing="0" class="table">
+  <tr>
+    <td class="head" id="headID">&nbsp;</td>
+    </tr>
+  <tr>
+    <td height="30" style="padding-top: 0px; padding-bottom: 0px">
+    <div class="indentmenu">
+
+<form onsubmit="LoginReq();return false;">
+    <ul>
+    <li>
+        <p class="intll">Логин: <input id="Login" type="text" class="intext" />   Пароль: 
+        <input id="Password" type="password" class="intext" />
+        <input type="submit" value="Перейти к настройкам" />
+        </p>
+    </li>
+    </ul>
+</form>
+</div>
+    </td>
+    </tr>
+  <tr>
+    <td class="ppp">&nbsp;</td>
+  </tr>
+  <tr>
+    <td  bgcolor="#DBD8C7" height="20px" ></td>
+  </tr>
+  
+  <tr>
+    <td  class="razdel"><p class="info" title="">Общая информация</p></td>
+  </tr>  
+ <tr>
+    <td bgcolor="#DBD8C7"><table border="0" cellspacing="10" cellpadding="0" align="center">
+  <tr>
+    <td width="200"><p class="intl">Версия WEB-интерфейса:</p></td>
+    <td width="300"><p class="intr"><span>3.0.0.1</span></p></td>
+	<td height="300" rowspan = "8"><span id="MapID">---</span></td>
+  </tr>
+  <tr>
+    <td width="200"><p class="intl">Версия прошивки:</p></td>
+    <td width="300"><p class="intr"><span id="SWVers">---</span></p></td>
+  </tr>
+  <tr>
+    <td><p class="intl">Версия загрузчика:</p></td>
+    <td><p class="intr"><span id="BLVers">---</span></p></td>
+  </tr>
+  <tr>
+    <td><p class="intl">Дата и время:</p></td>
+    <td><p class="intr"><span id="Date">---</span><span>  </span><span id="Time">---</span></p></td>
+  </tr>
+  <tr>
+    <td><p class="intl">IMEI:</p></td>
+    <td><p class="intr"><span id="IMEI">---</span></p></td>
+  </tr><tr>
+    <td><p class="intl">Идентификационный номер:</p></td>
+    <td><p class="intr"><span id="DevID">---</span></p></td>
+  </tr>
+  
+  </table>
+      </td></tr>
+ <tr>
+    <td  class="razdel"><p class="info" title="">Текущее сопротивление</p></td>
+ </tr> 
+
+<tr>
+    <td bgcolor="#DBD8C7">
+<br>
+<table border="0" cellspacing="5" cellpadding="0" align="center" id="RTable">
+  <tr bgcolor="#C4C5B7" height="30">
+    <td width="70" align=center><p class="tp">Канал</p></td>
+    <td width="70" align=center><p class="tp">1</p></td>
+    <td width="70" align=center><p class="tp">2</p></td>
+	<td width="70" align=center><p class="tp">3</p></td>
+	<td width="70" align=center><p class="tp">4</p></td>
+  </tr>
+  <tr height="20">
+    <td><p class="tpl">Норма 1</p></td>
+    <td id="O1_1" align=center>---</td>
+    <td id="O2_1" align=center>---</td>
+	<td id="O3_1" align=center>---</td>
+	<td id="O4_1" align=center>---</td>
+  </tr>
+  <tr height="20">
+    <td><p class="tpl">Норма 2</p></td>
+    <td id="O1_2" align=center>---</td>
+    <td id="O2_2" align=center>---</td>
+	<td id="O3_2" align=center>---</td>
+	<td id="O4_2" align=center>---</td>
+  </tr>
+  <tr height="20">
+    <td><p class="tpl">Норма 3</p></td>
+    <td id="O1_3" align=center>---</td>
+    <td id="O2_3" align=center>---</td>
+	<td id="O3_3" align=center>---</td>
+	<td id="O4_3" align=center>---</td>
+  </tr>
+  <tr height="20">
+    <td><p class="tpl">Норма 4</p></td>
+    <td id="O1_4" align=center>---</td>
+    <td id="O2_4" align=center>---</td>
+	<td id="O3_4" align=center>---</td>
+	<td id="O4_4" align=center>---</td>
+  </tr>
+  <tr height="20">
+    <td><p class="tpl">Норма 5</p></td>
+    <td id="O1_5" align=center>---</td>
+    <td id="O2_5" align=center>---</td>
+	<td id="O3_5" align=center>---</td>
+	<td id="O4_5" align=center>---</td>
+  </tr>
+  <tr height="20">
+    <td><p class="tpl">Авария</p></td>
+    <td id="O1_6" align=center>---</td>
+    <td id="O2_6" align=center>---</td>
+	<td id="O3_6" align=center>---</td>
+	<td id="O4_6" align=center>---</td>
+  </tr>
+  <tr height="20">
+    <td><p class="tpl">Обрыв</p></td>
+    <td id="O1_7" align=center>---</td>
+    <td id="O2_7" align=center>---</td>
+	<td id="O3_7" align=center>---</td>
+	<td id="O4_7" align=center>---</td>
+  </tr>
+  <tr height="20">
+    <td><p class="tpl">Питание</p></td>
+    <td id="O1_8" align=center>---</td>
+    <td id="O2_8" align=center>---</td>
+	<td id="O3_8" align=center>---</td>
+	<td id="O4_8" align=center>---</td>
+  </tr>
+</table>
+<br>    
+    </td>
+  </tr>
+  <tr>
+    <td class="ppp">&nbsp;</td>
+  <tr>
+    <td bgcolor="#DBD8C7" align="center"><p>&nbsp;</p></td>
+  </tr>
+</table>
+</div>
+<b class="bottom">
+<b class="rg4b"></b><b class="rg3b"></b>
+<b class="rg2b"></b><b class="rg1b"></b></b>
+</div>
+<p class="podpis">НИЧ БГУИР Центра 11.2 2011 - 2014</p>
+
+</body>
+</html>
+
+

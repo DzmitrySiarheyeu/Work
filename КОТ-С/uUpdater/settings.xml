@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PortSettings>
+    <Port>COM15</Port>
+    <Baud>115200</Baud>
+    <BootBaud>19200</BootBaud>
+    <Timeout>2000</Timeout>
+  </PortSettings>
+  <PrimarySettings>
+    <JumpAddr>16384</JumpAddr>
+    <JumpCode>14336</JumpCode>
+    <PassAddr>0</PassAddr>
+  </PrimarySettings>
+  <UserSettings>
+    <FullChipErase>false</FullChipErase>
+    <VersionRequest>true</VersionRequest>
+    <PasswordRequest>true</PasswordRequest>
+    <JumpToBootloader>false</JumpToBootloader>
+    <OneWireMode>false</OneWireMode>
+    <ModbusID>99</ModbusID>
+  </UserSettings>
+</Settings>

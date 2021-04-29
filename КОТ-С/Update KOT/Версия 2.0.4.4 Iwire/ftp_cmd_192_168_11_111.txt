@@ -1,0 +1,7 @@
+open 10.15.118.21
+ets
+testtest
+cd at45db
+send Tw_ML4_4.fm Tw_ML4_4.fm
+bye
+
